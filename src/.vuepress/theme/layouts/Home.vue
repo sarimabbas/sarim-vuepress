@@ -16,21 +16,27 @@ export default {
 <template>
   <Wrapper>
     <Logo />
+    <br />
     <h1 class="mb-zero">Sarim Abbas</h1>
     <br />
-    <p>I'm a Computer Science student at Yale University. My interests span software engineering, design, neuroscience and entrepreneurship. In my free time, I love to read about and experiment with new technologies.</p>
 
-    <nav>
+    <p>
+      Yale Computer Science major.
+      <!-- <br />Consumer of Hacker News. -->
+      <br />Interested in engineering, design and cognition.
+    </p>
+
+    <nav class="fs-large">
       <ul class="no-list">
         <li>
-          <a href="/blog">Blog</a>
+          <a href="/posts">Posts</a>
         </li>
         <li>
           <a href="/projects">Projects</a>
         </li>
-        <li>
+        <!-- <li>
           <a href="/interesting">Interesting</a>
-        </li>
+        </li>-->
       </ul>
     </nav>
 

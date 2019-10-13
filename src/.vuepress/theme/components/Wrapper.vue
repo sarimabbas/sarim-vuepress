@@ -1,10 +1,10 @@
 <script>
 export default {
   name: "wrapper",
-  components: {},
-  mounted: function() {
-    console.log(this.$site);
-  }
+  components: {}
+  //   mounted: function() {
+  //     console.log(this.$site);
+  //   }
 };
 </script>
 
@@ -48,6 +48,19 @@ html {
   --font-body: var(--font-family);
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 400;
+}
+
+h1 {
+  font-weight: 500;
+}
+
 code {
   font-size: calc(var(--font-size) - (var(--font-size) * 0.25));
 }
@@ -80,6 +93,7 @@ code {
 
 a {
   background: linear-gradient(to right, #ff69b4, #ff9280);
+  /* background: linear-gradient(to right, #2669fa, #00bee4); */
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -91,6 +105,17 @@ a {
 
 a:hover {
   filter: brightness(1);
+}
+
+.radiant-blue {
+  background: linear-gradient(to right, #44bbff, #00fafa);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-decoration: none;
+  filter: brightness(0.8);
+  vertical-align: top;
+  display: inline-block;
 }
 
 .no-list {

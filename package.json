@@ -15,6 +15,7 @@
     },
     "dependencies": {
         "cutestrap": "^2.0.0-4",
+        "luxon": "^1.19.3",
         "prismjs": "^1.17.1"
     }
 }

@@ -1,6 +1,7 @@
 <script>
 import Wrapper from "../components/Wrapper.vue";
 import Logo from "../components/Logo.vue";
+import { DateTime } from "luxon";
 export default {
   name: "bloglist",
   components: {
@@ -25,6 +26,17 @@ export default {
         return -1;
       }
     });
+    // convert dates to better format
+    filtered = filtered.map(p => {
+      return {
+        ...p,
+        frontmatter: {
+          ...p.frontmatter,
+          date: DateTime.fromISO(p.frontmatter.date).toFormat("LLL yyyy")
+        }
+      };
+    });
+    // set final
     this.posts = filtered;
   }
 };
@@ -35,7 +47,8 @@ export default {
     <Logo />
     <h2>Blog</h2>
     <ul>
-      <li v-for="p in posts" :key="key">
+      <li v-for="p in posts">
+        <span style="font-family: monospace">{{ p.frontmatter.date }}</span> -
         <a :href="p.path">{{ p.title }}</a>
       </li>
     </ul>
