@@ -1,0 +1,20 @@
+{
+    "name": "sarim-vuepress",
+    "version": "1.0.0",
+    "description": "My VuePress-powered static site",
+    "main": "index.js",
+    "scripts": {
+        "dev": "vuepress dev src",
+        "build": "vuepress build src"
+    },
+    "author": "Sarim Abbas",
+    "license": "ISC",
+    "devDependencies": {
+        "@fortawesome/fontawesome-free": "^5.11.2",
+        "vuepress": "^1.2.0"
+    },
+    "dependencies": {
+        "cutestrap": "^2.0.0-4",
+        "prismjs": "^1.17.1"
+    }
+}
