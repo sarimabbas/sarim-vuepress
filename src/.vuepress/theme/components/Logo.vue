@@ -10,15 +10,15 @@ export default {
   name: "logo",
   data() {
     return {
-      dark: false
+      dark: true
     };
   },
   created: function() {
-    if (matchMedia("(prefers-color-scheme: dark)").matches) {
-      this.dark = true;
-    } else {
-      this.dark = false;
-    }
+    // if (matchMedia("(prefers-color-scheme: dark)").matches) {
+    //   this.dark = true;
+    // } else {
+    //   this.dark = false;
+    // }
   }
 };
 </script>
