@@ -19,14 +19,14 @@ export default {
     <h1 class="mb-zero">Sarim Abbas</h1>
     <br />
     <p>I'm a Computer Science student at Yale University. My interests span software engineering, design, neuroscience and entrepreneurship. In my free time, I love to read about and experiment with new technologies.</p>
-    <!-- <Nav /> -->
-    <nav class="nav">
+
+    <nav>
       <ul class="no-list">
         <li>
           <a href="/blog">Blog</a>
         </li>
         <li>
-          <a href>Projects</a>
+          <a href="/projects">Projects</a>
         </li>
         <li>
           <a href="/interesting">Interesting</a>
@@ -47,7 +47,10 @@ export default {
 
 
 <style scoped>
+.social {
+  display: flex;
+}
 .social > * {
-  margin-right: 5px;
+  margin-right: 15px;
 }
 </style>

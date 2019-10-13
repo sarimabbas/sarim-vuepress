@@ -85,6 +85,8 @@ a {
   -webkit-text-fill-color: transparent;
   text-decoration: none;
   filter: brightness(0.8);
+  vertical-align: top;
+  display: inline-block;
 }
 
 a:hover {
@@ -94,12 +96,6 @@ a:hover {
 .no-list {
   list-style: none;
   margin-left: 0;
-}
-
-li {
-  word-wrap: break-word;
-  line-break: loose;
-  display: list-item;
 }
 </style>
 
