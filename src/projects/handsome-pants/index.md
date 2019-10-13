@@ -1,7 +1,6 @@
 ---
 published: true
 date: 2019-10-12
-actionLink: https://handsomepants.netlify.com
 type: project
 productImage: ./assets/productImage.png
 logoImage: ./assets/logoImage.png

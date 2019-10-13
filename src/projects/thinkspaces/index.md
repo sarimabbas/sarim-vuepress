@@ -6,11 +6,14 @@ type: project
 logoImage: ./assets/logoImage.png
 productImage: ./assets/productImage.png
 previewImage: ./assets/previewImage.png
-actionLink: https://thinkspaces.org
 tags: ["Web Apps", "Entrepreneurship", "Startups", "Collaboration", "React", "Firebase"]
 ---
 
 # Thinkspaces
+
+![Preview Image](./assets/productImage.png)
+
+<a style="all:unset" href="https://thinkspaces.org" target="_blank" rel="noopener noreferrer"><button class="button">Visit Thinkspaces</button></a>
 
 [[toc]]
 

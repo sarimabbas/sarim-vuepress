@@ -4,13 +4,16 @@ published: true
 type: project
 previewImage: ./assets/previewImage.png
 productImage: ./assets/productImage.png
-logoImage: ./assets/logoImage.png
-actionLink: https://waqt.app
+logoImage: ./assets/logoImage.pngs
 date: 2019-10-15
 tags: ["Web Apps", "Timezones", "React", "Moment.js"]
 ---
 
 # Waqt
+
+![Preview](./assets/productImage.png)
+
+<a style="all:unset" href="https://waqt.app" target="_blank" rel="noopener noreferrer"><button class="button">Visit Waqt</button></a>
 
 [[toc]]
 

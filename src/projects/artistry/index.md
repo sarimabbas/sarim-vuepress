@@ -4,13 +4,16 @@ date: 2019-10-14
 productImage: ./assets/productImage.png
 previewImage: ./assets/previewImage.png
 logoImage: ./assets/logoImage.png
-actionLink: https://sarimabbas.github.io/cs429-artistry/
 type: project
 tags: ["Product Design", "HCI", "Collaboration", "AR/VR"]
 description: "Collaboration concept for artists"
 ---
 
 # Artistry
+
+![Preview](./assets/productImage.png)
+
+<a style="all:unset" href="https://sarimabbas.github.io/cs429-artistry/" target="_blank" rel="noopener noreferrer"><button class="button">Visit Artistry</button></a>
 
 [[toc]]
 

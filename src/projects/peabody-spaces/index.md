@@ -2,7 +2,6 @@
 date: 2019-10-16
 published: true
 title: Peabody Spaces
-actionLink: https://enas410-96ed4.firebaseapp.com/
 type: project
 productImage: ./assets/productImage.png
 previewImage: ./assets/previewImage.png
@@ -12,6 +11,10 @@ description: "Reimagined website for the Yale Peabody Museum"
 ---
 
 # Peabody Spaces
+
+![Preview Image](./assets/productImage.png)
+
+<a style="all:unset" href="https://enas410-96ed4.firebaseapp.com/" target="_blank" rel="noopener noreferrer"><button class="button">Visit Peabody Spaces</button></a>
 
 [[toc]]
 

@@ -91,6 +91,11 @@ code {
   }
 }
 
+.button,
+.button:hover {
+  color: white;
+}
+
 a {
   background: linear-gradient(to right, #ff69b4, #ff9280);
   /* background: linear-gradient(to right, #2669fa, #00bee4); */

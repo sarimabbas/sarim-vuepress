@@ -5,12 +5,16 @@ type: project
 logoImage: ./assets/logoImage.png
 productImage: ./assets/previewImage.png
 previewImage: ./assets/previewImage.png
-actionLink: https://github.com/sarimabbas/cs338-project
 tags: ["Robotics", "Arduino", "C++", "3D Printing"]
 date: 2019-10-13
 ---
 
 # Arduino Robot Arm
+
+![Preview](./assets/previewImage.png)
+
+<a style="all:unset" href="https://github.com/sarimabbas/cs338-project" target="_blank" rel="noopener noreferrer"><button class="button">View source code on GitHub</button></a>
+
 
 [[toc]]
 
