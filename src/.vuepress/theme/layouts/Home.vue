@@ -21,7 +21,7 @@ export default {
     <br />
 
     <p>
-      Yale Computer Science major.
+      Computer Science major at Yale.
       <!-- <br />Consumer of Hacker News. -->
       <br />Interested in engineering, design and cognition.
     </p>
