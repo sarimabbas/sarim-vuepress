@@ -45,7 +45,7 @@ export default {
 <template>
   <Wrapper>
     <Logo />
-    <h2>Blog</h2>
+    <h2>Posts</h2>
     <ul>
       <li v-for="p in posts">
         <span style="font-family: monospace">{{ p.frontmatter.date }}</span> -
