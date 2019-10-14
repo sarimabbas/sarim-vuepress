@@ -1,7 +1,6 @@
 <script>
 export default {
-  name: "wrapper",
-  components: {}
+  name: "wrapper"
   //   mounted: function() {
   //     console.log(this.$site);
   //   }

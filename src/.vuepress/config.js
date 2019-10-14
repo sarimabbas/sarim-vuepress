@@ -6,7 +6,6 @@ module.exports = {
         anchor: { permalink: false },
         // options for markdown-it-toc
         toc: { includeLevel: [1, 2, 3] }
-        // lineNumbers: true
         // extendMarkdown: md => {
         //   // use more markdown-it plugins!
         //   md.use(require('markdown-it-xxx'))

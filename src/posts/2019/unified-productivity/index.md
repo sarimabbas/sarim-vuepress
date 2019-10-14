@@ -76,7 +76,7 @@ There are no good mechanisms today to save content from the web. We may take scr
 
 `.CHRNCL` is a container format (similar to `.textbundle`) that would support a variety of use-cases. At a minimum, it would store HTML/CSS assets and metadata about the saved URL. In addition, community-built modules would save and render the file appropriately for the user, depending on the website. An Article module could replace Pocket and show a simplified reader view of the webpage, while a Video module could open up a local stream to the video host. A Spreadsheet module could be a streamlined wrapper around a Google Sheet, while an RSS module could open an interactive feed of your favorite blog. All of this without having to open up a web-browser, authenticate and navigate within the respective web apps' interfaces. Just imagine:
 
-<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/6aXFKjmZ_SI?rel=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<YouTube src="https://www.youtube-nocookie.com/embed/6aXFKjmZ_SI?rel=0" />
 
 &nbsp;
 
@@ -113,7 +113,7 @@ I'll elaborate on the individual features below.
 
 Drilling through folders in the new Dropbox is as unpleasant an experience as in Finder. Ideally, I'd like to have a hierarchical overview of my file tree. Bear is a great example of this organization, and uses infinitely nested tags. Clicking a parent tag recursively populates the list view with all notes belonging to descendant children. In my personal experience, this approach drastically reduces the cognitive load associated with remembering folder paths and clicking through Finder. The Dropbox sidebar, currently limited, could be revamped with this approach.
 
-<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/aKf2DGvRT_4?rel=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<YouTube src="https://www.youtube-nocookie.com/embed/aKf2DGvRT_4?rel=0"/>
 
 #### Collaboration/chat
 
@@ -139,7 +139,7 @@ The obvious first choices are a list view and a grid view, with appropriate filt
 1. Kanban view: Each label corresponds to its own column. This can replace Kanban apps like Trello.
 2. Sort by deadline and completion of tasks: This can replace todo productivity apps like Things and Todoist.
 
-<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/Y4C5jEPcNbs?rel=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<YouTube src="https://www.youtube-nocookie.com/embed/Y4C5jEPcNbs?rel=0" />
 
 #### File view options
 

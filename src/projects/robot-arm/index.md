@@ -15,12 +15,11 @@ date: 2019-10-13
 
 <a style="all:unset" href="https://github.com/sarimabbas/cs338-project" target="_blank" rel="noopener noreferrer"><button class="button">View source code on GitHub</button></a>
 
-
 [[toc]]
 
 ## Introduction
 
-This project comprises of a 3D-printed robot arm with four separate software demos to give an idea of potential use cases. It was built for Yale's *CS/EENG 338 Digital Systems* class project.
+This project comprises of a 3D-printed robot arm with four separate software demos to give an idea of potential use cases. It was built for Yale's _CS/EENG 338 Digital Systems_ class project.
 
 The arm is based on the [EEZYBot MK1](http://www.eezyrobots.it/eba_mk1.html). The parts were printed at Yale's Center for Engineering, Innovation and Design (CEID). A custom base plate was also designed and printed to house the various electrical components.
 
@@ -38,14 +37,14 @@ To use this demo, upload `src/demo_2` to the Arduino. Then, open the controller 
 
 Here are the controls:
 
-- Moving the left stick left-right turns the robot base.
-- Moving the left stick forward-backward turns the robot shoulder.
-- Moving the right stick forward-backward turns the robot elbow.
-- Pressing A opens and closes the gripper.
+-   Moving the left stick left-right turns the robot base.
+-   Moving the left stick forward-backward turns the robot shoulder.
+-   Moving the right stick forward-backward turns the robot elbow.
+-   Pressing A opens and closes the gripper.
 
 Here's a video of the interaction:
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/9GZomNd3jlo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<YouTube src="https://www.youtube.com/embed/9GZomNd3jlo"/>
 
 ### Rotary encoders - manual control
 
@@ -55,7 +54,7 @@ You should be able to control each joint using a rotary encoder. The input satur
 
 Here's a video of the interaction:
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/vtAuMasHtZk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<YouTube src="https://www.youtube.com/embed/vtAuMasHtZk"/>
 
 ### Pick and place
 
@@ -65,7 +64,7 @@ The `driver.hpp` and `driver.cpp` files contain useful helper functions such as 
 
 These have been used to create some pick and place behavior. Here's a video of the interaction:
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/sw9eGx-feeU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<YouTube src="https://www.youtube.com/embed/sw9eGx-feeU"/>
 
 ### Ultrasonic sensor - turtling behavior
 
@@ -77,7 +76,7 @@ When an object, e.g. human hand, gets too close, the robot retracts (as if into 
 
 Here's a video of the interaction:
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/myK5MGR7y6I" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<YouTube src="https://www.youtube.com/embed/myK5MGR7y6I"/>
 
 ## Future work
 
@@ -95,12 +94,12 @@ ROS opens up a number of possibilities. Using the pub/sub messaging system, it i
 
 Besides the robot, the following additional components are required:
 
-- 1 - Arduino Uno
-- 4 - rotary encoders
-- 1 - HC-SR04 ultrasonic sensor
-- 4 - SG90 servos
-- 1 - 4xAA Battery holder (to power servos)
-- Breadboard and wire
+-   1 - Arduino Uno
+-   4 - rotary encoders
+-   1 - HC-SR04 ultrasonic sensor
+-   4 - SG90 servos
+-   1 - 4xAA Battery holder (to power servos)
+-   Breadboard and wire
 
 These are connected as per the following breadboard view:
 
@@ -110,31 +109,31 @@ These are connected as per the following breadboard view:
 
 The robot driver has a `driverSetup()` function which accepts pins for each servo. In the schematic, the following pins are used:
 
-- frontBack/FB: 10
-- upDown/UD: 11
-- gripper/GR: 12
-- base/BS: 13
+-   frontBack/FB: 10
+-   upDown/UD: 11
+-   gripper/GR: 12
+-   base/BS: 13
 
 The rotary encoders are connected to:
 
-- frontBack/FB: 2, 3
-- upDown/UD: 4, 5
-- gripper/GR: 6, 7
-- base/BS: 8, 9
+-   frontBack/FB: 2, 3
+-   upDown/UD: 4, 5
+-   gripper/GR: 6, 7
+-   base/BS: 8, 9
 
 Lastly, the HC-SR04 ultrasonic sensor is connected to:
 
-- TRIG: A0
-- ECHO: A1
+-   TRIG: A0
+-   ECHO: A1
 
 ### Software
 
 The Arduino IDE is required. Within the IDE, the following libraries must be installed:
 
-- Encoder
-- Bifrost for HC-SR04
-- ArduinoJson
-- Servo
+-   Encoder
+-   Bifrost for HC-SR04
+-   ArduinoJson
+-   Servo
 
 A Python virtual environment is also required for the game controller demo. To create one:
 
