@@ -1,5 +1,5 @@
 ---
-date: 2019-10-16
+date: 2019-10-17
 description: Web platform to discover creative opportunities
 published: true
 type: project
