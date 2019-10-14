@@ -149,4 +149,4 @@ pip3 install pygame
 pip3 install pyserial
 ```
 
-PyGame has a number of external dependencies which vary by OS. These can be installed by following this guide: <https://nostarch.com/download/Teach_Your_Kids_to_Code_InstallingPygame_MacLinux.pdf>
+PyGame has a number of external dependencies which vary by OS. These can be installed by following [this guide](https://nostarch.com/download/Teach_Your_Kids_to_Code_InstallingPygame_MacLinux.pdf).

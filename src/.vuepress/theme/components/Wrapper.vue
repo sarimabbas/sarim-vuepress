@@ -1,9 +1,6 @@
 <script>
 export default {
   name: "wrapper"
-  //   mounted: function() {
-  //     console.log(this.$site);
-  //   }
 };
 </script>
 
@@ -29,7 +26,7 @@ export default {
 
 @media (max-width: 55rem) {
   * {
-    --rhythm: 1.4rem;
+    --rhythm: 1.2rem;
   }
 }
 
