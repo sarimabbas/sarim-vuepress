@@ -1,0 +1,34 @@
+/*
+* These are not universally recommended remedies,
+* but they are good to consider,
+* and they might work for you.
+*/
+
+/* Nav Lists
+************/
+
+/*
+* List styling is not usually desired in navigation,
+* but this also removes list-semantics for screen-readers
+* See: https://github.com/mozdevs/cssremedy/issues/15
+*/
+nav ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+/*
+  * 1. Add zero-width-space to prevent VoiceOver disable
+  * 2. Absolute position ensures no extra space
+  * See: https://unfetteredthoughts.net/2017/09/26/voiceover-and-list-style-type-none/
+  */
+nav li:before {
+    content: "\200B";
+    position: absolute;
+}
+
+/* resize html, body */
+html,
+body {
+    height: 100%;
+}

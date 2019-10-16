@@ -1,5 +1,5 @@
 <script>
-import Wrapper from "../components/Wrapper.vue";
+import Wrapper from "../components/wrapper/Wrapper.vue";
 import Logo from "../components/Logo.vue";
 import { DateTime } from "luxon";
 export default {

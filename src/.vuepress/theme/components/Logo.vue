@@ -1,10 +1,14 @@
 <template>
-  <a href="/">
-    <picture>
-      <source srcset="/white.png" media="(prefers-color-scheme: dark)" />
-      <img src="/black.png" width="50px" />
-    </picture>
-  </a>
+  <div>
+    <br />
+    <a href="/">
+      <picture>
+        <source srcset="/white.png" media="(prefers-color-scheme: dark)" />
+        <img src="/black.png" width="50px" />
+      </picture>
+    </a>
+    <br />
+  </div>
 </template>
 
 <script>

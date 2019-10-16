@@ -1,5 +1,5 @@
 <script>
-import Wrapper from "../components/Wrapper.vue";
+import Wrapper from "../components/wrapper/Wrapper.vue";
 import Logo from "../components/Logo.vue";
 import Icon from "../components/Icon.vue";
 
@@ -16,17 +16,14 @@ export default {
 <template>
   <Wrapper>
     <Logo />
-    <br />
-    <h1 class="mb-zero">Sarim Abbas</h1>
-    <br />
-
+    <h1>Sarim Abbas</h1>
     <p>
       Computer Science major at Yale.
       <!-- <br />Consumer of Hacker News. -->
       <br />Interested in engineering, design and cognition.
     </p>
 
-    <nav class="fs-large">
+    <nav>
       <ul class="no-list">
         <li>
           <a href="/posts">Posts</a>
@@ -34,14 +31,8 @@ export default {
         <li>
           <a href="/projects">Projects</a>
         </li>
-        <!-- <li>
-          <a href="/interesting">Interesting</a>
-        </li>-->
       </ul>
     </nav>
-
-    <br />
-    <br />
 
     <section class="social">
       <Icon name="fa-github" href="https://github.com/sarimabbas/" size="fa-lg" />

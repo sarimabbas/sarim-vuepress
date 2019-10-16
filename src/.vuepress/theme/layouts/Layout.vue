@@ -1,5 +1,5 @@
 <script>
-import Wrapper from "../components/Wrapper.vue";
+import Wrapper from "../components/wrapper/Wrapper.vue";
 import Logo from "../components/Logo.vue";
 export default {
   name: "home",
@@ -13,8 +13,6 @@ export default {
 <template>
   <Wrapper>
     <Logo />
-    <br />
-    <br />
     <Content />
   </Wrapper>
 </template>
