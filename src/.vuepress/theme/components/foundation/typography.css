@@ -1,8 +1,42 @@
+/* fallback font */
+@font-face {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    src: url("./fonts/Inter-Regular.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: "Inter";
+    font-style: italic;
+    font-weight: 400;
+    src: url("./fonts/Inter-Italic.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 600;
+    src: url("./fonts/Inter-SemiBold.woff2") format("woff2");
+}
+
 html {
     color: var(--lm-body-color);
-    font-family: "-apple-system", sans-serif;
-    font-size: 18px;
-    line-height: 26px;
+    font-family: "-apple-system", "Inter", sans-serif;
+}
+
+@media (min-width: 768px) {
+    html {
+        font-size: 112.5%;
+    }
+
+    h1 {
+        font-size: 3.5rem;
+    }
+}
+
+h1 {
+    font-size: 3rem;
 }
 
 h1,
@@ -31,7 +65,6 @@ p {
 
 a {
     background: linear-gradient(to right, #ff69b4, #ff9280);
-    /* background: linear-gradient(to right, #2669fa, #00bee4); */
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
