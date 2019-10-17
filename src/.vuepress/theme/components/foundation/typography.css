@@ -84,3 +84,10 @@ blockquote {
     margin-left: 15px;
     font-style: italic;
 }
+
+:not(pre) > code {
+    color: #e2777a;
+    padding: 3px;
+    border-radius: 5px;
+    background-color: #333;
+}
