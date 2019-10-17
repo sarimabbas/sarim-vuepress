@@ -26,11 +26,11 @@ export default {
     <!-- links -->
     <nav class="links">
       <a href="/posts">
-        <h3 class="m-zero">Posts</h3>
+        <span class="link m-zero">Posts</span>
       </a>
       <br />
       <a href="/projects">
-        <h3 class="m-zero">Projects</h3>
+        <span class="link m-zero">Projects</span>
       </a>
     </nav>
     <!-- social -->
@@ -46,6 +46,10 @@ export default {
 <style scoped>
 .links {
   margin-bottom: 40px;
+}
+.link {
+  font-weight: 600;
+  font-size: 1.17rem;
 }
 .social {
   display: flex;
