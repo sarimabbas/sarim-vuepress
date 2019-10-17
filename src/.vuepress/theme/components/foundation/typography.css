@@ -65,14 +65,16 @@ p {
 }
 
 a {
+    /* gradient text */
     background: linear-gradient(to right, #ff69b4, #ff9280);
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+
+    /* other fixes */
     text-decoration: none;
     filter: brightness(0.8);
-    vertical-align: top;
-    display: inline-block;
+    /* vertical-align: top; */
 }
 
 a:hover {
