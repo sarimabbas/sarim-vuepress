@@ -56,3 +56,7 @@ body {
 .blk {
     display: block;
 }
+
+.unset {
+    all: unset;
+}
