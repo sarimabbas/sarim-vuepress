@@ -32,3 +32,27 @@ html,
 body {
     height: 100%;
 }
+
+.m-zero {
+    margin: 0 0 0 0;
+}
+
+.mt-zero {
+    margin-top: 0;
+}
+
+.mb-zero {
+    margin-bottom: 0;
+}
+
+.ml-zero {
+    margin-left: 0;
+}
+
+.mr-zero {
+    margin-right: 0;
+}
+
+.blk {
+    display: block;
+}

@@ -16,24 +16,24 @@ export default {
 <template>
   <Wrapper>
     <Logo />
+    <!-- header text -->
     <h1>Sarim Abbas</h1>
     <p>
       Computer Science major at Yale.
       <!-- <br />Consumer of Hacker News. -->
       <br />Interested in engineering, design and cognition.
     </p>
-
-    <nav>
-      <ul class="no-list">
-        <li>
-          <a href="/posts">Posts</a>
-        </li>
-        <li>
-          <a href="/projects">Projects</a>
-        </li>
-      </ul>
+    <!-- links -->
+    <nav class="links">
+      <a href="/posts">
+        <h3 class="m-zero">Posts</h3>
+      </a>
+      <br />
+      <a href="/projects">
+        <h3 class="m-zero">Projects</h3>
+      </a>
     </nav>
-
+    <!-- social -->
     <section class="social">
       <Icon name="fa-github" href="https://github.com/sarimabbas/" size="fa-lg" />
       <Icon name="fa-linkedin" href="https://www.linkedin.com/in/sarimabbas/" size="fa-lg" />
@@ -44,6 +44,9 @@ export default {
 
 
 <style scoped>
+.links {
+  margin-bottom: 40px;
+}
 .social {
   display: flex;
 }
