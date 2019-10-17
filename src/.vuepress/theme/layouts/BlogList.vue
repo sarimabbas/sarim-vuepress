@@ -48,7 +48,7 @@ export default {
     <h2>Posts</h2>
     <ul>
       <li v-for="p in posts">
-        <span style="font-family: monospace">{{ p.frontmatter.date }}</span> -
+        <!-- <span style="font-family: monospace">{{ p.frontmatter.date }}</span> - -->
         <a :href="p.path">{{ p.title }}</a>
       </li>
     </ul>
