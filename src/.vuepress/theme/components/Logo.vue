@@ -7,7 +7,6 @@
         <img src="/black.png" width="50px" />
       </picture>
     </a>
-    <br />
   </div>
 </template>
 
