@@ -11,9 +11,11 @@ date: 2019-10-13
 
 # Arduino Robot Arm
 
+3D-printed, Arduino-powered robot arm for class project
+
 ![Preview](./assets/previewImage.png)
 
-<a style="all:unset" href="https://github.com/sarimabbas/cs338-project" target="_blank" rel="noopener noreferrer"><button class="button">View source code on GitHub</button></a>
+<Button href="https://github.com/sarimabbas/cs338-project" external="true">View source code on GitHub</Button>
 
 [[toc]]
 

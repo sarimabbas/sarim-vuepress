@@ -6,14 +6,24 @@ type: project
 logoImage: ./assets/logoImage.png
 productImage: ./assets/productImage.png
 previewImage: ./assets/previewImage.png
-tags: ["Web Apps", "Entrepreneurship", "Startups", "Collaboration", "React", "Firebase"]
+tags:
+    [
+        "Web Apps",
+        "Entrepreneurship",
+        "Startups",
+        "Collaboration",
+        "React",
+        "Firebase",
+    ]
 ---
 
 # Thinkspaces
 
+Web platform to discover creative opportunities
+
 ![Preview Image](./assets/productImage.png)
 
-<a style="all:unset" href="https://thinkspaces.org" target="_blank" rel="noopener noreferrer"><button class="button">Visit Thinkspaces</button></a>
+<Button href="https://thinkspaces.org" external="true">Visit Thinkspaces</Button>
 
 [[toc]]
 
@@ -57,6 +67,6 @@ Still in its nascent stages, the codebase of Thinkspaces changes appreciably wee
 
 ## Usage and achievements
 
-- Thinkspaces has 200+ registered users, and 50+ projects.
-- Its expansion beyond Yale University has resulted in projects from UConn, Harvard and the wider New Haven community.
-- It was accepted into Yale's Tsai CITY Accelerator, a program with an ostensibly low, _low_ acceptance rate.
+-   Thinkspaces has 200+ registered users, and 50+ projects.
+-   Its expansion beyond Yale University has resulted in projects from UConn, Harvard and the wider New Haven community.
+-   It was accepted into Yale's Tsai CITY Accelerator, a program with an ostensibly low, _low_ acceptance rate.

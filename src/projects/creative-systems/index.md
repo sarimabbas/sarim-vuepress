@@ -26,6 +26,6 @@ The first step was to map the pixel layout of the panels, in other words, to fin
 
 This project pulled together many different resources. The controller is a 3D-printed enclosure, from an Adafruit design. Inside, an ESP32 microcontroller is connected to a two-axis joystick, a momentary button, and a single-pole switch. This sensor data is communicated by the ESP32 to a game console, capable of both WiFi and USB serial transmission.
 
-The ESP32 is not HID capable. So, the controller inputs are interpreted by a Python program on the game console (in this case a Raspberry Pi), which transforms them into emulated keypresses. These are sent to the running game. The game itself is a platforming demo built with the Godot game engine.
+The ESP32 is not HID capable. So, the controller inputs are interpreted by a Python program on the game console (in this case a Raspberry Pi), which transforms them into emulated keypresses. These are sent to the running game. The game itself is a platforming demo built with the Godot game engine and exported to WebAssembly.
 
 The embedded YouTube video is created in a parody style. To view a less revolutionary video, you can [click here for an extended demo of the gameplay](https://www.youtube.com/watch?v=X9wXXtjV6eg).

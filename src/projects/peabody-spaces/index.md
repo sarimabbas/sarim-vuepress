@@ -12,9 +12,11 @@ description: "Reimagined website for the Yale Peabody Museum"
 
 # Peabody Spaces
 
+Reimagined website for the Yale Peabody Museum
+
 ![Preview Image](./assets/productImage.png)
 
-<a style="all:unset" href="https://enas410-96ed4.firebaseapp.com/" target="_blank" rel="noopener noreferrer"><button class="button">Visit Peabody Spaces</button></a>
+<Button href="https://enas410-96ed4.firebaseapp.com/" external="true">Visit Peabody Spaces</Button>
 
 [[toc]]
 

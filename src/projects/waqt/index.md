@@ -11,9 +11,11 @@ tags: ["Web Apps", "Timezones", "React", "Moment.js"]
 
 # Waqt
 
+Simple but powerful timezone tracking app
+
 ![Preview](./assets/productImage.png)
 
-<a style="all:unset" href="https://waqt.app" target="_blank" rel="noopener noreferrer"><button class="button">Visit Waqt</button></a>
+<Button href="https://waqt.app" external="true">Visit Waqt</Button>
 
 [[toc]]
 
@@ -58,7 +60,7 @@ Waqt could bring together several features to be the one place for scheduling me
 
 ## Usage and press
 
-- Waqt hit ~6000 peak monthly users.
-- It was ranked [#5 Product of the Day on Product Hunt](https://www.producthunt.com/posts/waqt).
-- It was featured in a [Lifehacker post heralding the new year](https://lifehacker.com/say-happy-new-year-to-friends-in-different-time-zones-1831399687).
-- And in Gigazine [here](https://gigazine.net/gsc_news/en/20190106-waqt/).
+-   Waqt hit ~6000 peak monthly users.
+-   It was ranked [#5 Product of the Day on Product Hunt](https://www.producthunt.com/posts/waqt).
+-   It was featured in a [Lifehacker post heralding the new year](https://lifehacker.com/say-happy-new-year-to-friends-in-different-time-zones-1831399687).
+-   And in Gigazine [here](https://gigazine.net/gsc_news/en/20190106-waqt/).
