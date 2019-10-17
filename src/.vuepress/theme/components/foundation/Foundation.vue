@@ -24,6 +24,9 @@ export default {
 /* colors */
 @import "./colors.css";
 
+/* buttons */
+@import "./buttons.css";
+
 /* icons */
 @import "~@fortawesome/fontawesome-free/css/all.css";
 
