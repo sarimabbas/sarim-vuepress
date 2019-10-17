@@ -74,7 +74,8 @@ a {
     /* other fixes */
     text-decoration: none;
     filter: brightness(0.8);
-    /* vertical-align: top; */
+    display: inline-block;
+    vertical-align: top;
 }
 
 a:hover {
