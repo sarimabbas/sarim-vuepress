@@ -3,7 +3,7 @@ button {
     border-radius: 5px;
     padding: 10px 15px;
     background: linear-gradient(to right, #2669faab, #00bee483);
-    color: white;
+    color: var(--lm-body-color);
 }
 
 button:hover {
