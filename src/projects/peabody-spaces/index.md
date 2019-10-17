@@ -34,25 +34,25 @@ The website was designed to inform and engage all Peabody patrons. It fully inco
 
 When first accessing the website, the visitor is struck with the large video that occupies a 100% of the viewport height. The frames were extracted from the final course video, a separate project. Controls on the bottom right let the user flip through prominent content dispersed throughout the site. Thus the hero slider provides an impressive overview of the Peabody's many arms.
 
-<div style="width:100%;height:0px;position:relative;padding-bottom:47.918%;"><iframe src="https://streamable.com/s/ix839/bmsusx" frameborder="0" width="100%" height="100%" allowfullscreen style="width:100%;height:100%;position:absolute;left:0px;top:0px;overflow:hidden;"></iframe></div>
+<video src="./assets/hero.mp4" controls></video>
 
 ### Comprehensive menu
 
 After much deliberation about how to present information about an entity as complex as the Peabody, we took a page from the [Hirshhorn Museum's](https://hirshhorn.si.edu/) book, and decided to keep the initially visible menu simple, with five broad categories. Once the hamburger is clicked, a full screen menu provides a more detailed organization of the website's pages. This combination allows for both quick navigation to major sections, and more comprehensive navigation to specific pages with only an extra click.
 
-<div style="width:100%;height:0px;position:relative;padding-bottom:47.918%;"><iframe src="https://streamable.com/s/tn4s8/dupayg" frameborder="0" width="100%" height="100%" allowfullscreen style="width:100%;height:100%;position:absolute;left:0px;top:0px;overflow:hidden;"></iframe></div>
+<video src="./assets/menu.mp4" controls></video>
 
 ### Variable width font
 
 One of the most eye-catching elements on the homepage is the sideways word mark. Taking inspiration from the playful and protean nature of the [Whitney Museum's](https://whitney.org/) mark, the logo uses a variable width font that adapts to the user's scroll. We wanted to show, too, that the Peabody Museum was adapting in response to visitor needs. A scroll event listener updates the width in real-time, creating a memorable effect. The mark is localized to the hero slider area using a combination of sticky and absolute CSS positioning.
 
-<div style="width:100%;height:0px;position:relative;padding-bottom:47.918%;"><iframe src="https://streamable.com/s/5wc2u/qqdvgc" frameborder="0" width="100%" height="100%" allowfullscreen style="width:100%;height:100%;position:absolute;left:0px;top:0px;overflow:hidden;"></iframe></div>
+<video src="./assets/variable-font.mp4" controls></video>
 
 ### Interactive floor plan
 
 The educational potential of a museum's collection should not be realized through live visits alone. For those who cannot visit the Peabody, or those planning their trips in advance, an interactive floor plan or map would be very valuable. We had two routes we could take when building ours. We could opt for a "Street View"-esque tour like the [Smithsonian's](https://naturalhistory2.si.edu/vt3/NMNH/z_NMNH-016.html), which would have required 360° cameras placed in each museum room. Instead, we drew inspiration from the simplicity and extensibility of [The Met's](https://maps.metmuseum.org/) 2D map. Consequently, our floor plan is a faithful 2D reconstruction of actual Peabody plans. The images were first traced in Adobe Illustrator by Kevin Koste, and exported to SVG. The SVG format is amenable to JavaScript event handlers, that allow for hover and click interactions. The plan allows side-by-side view of exhibit photos and information.
 
-<div style="width:100%;height:0px;position:relative;padding-bottom:47.633%;"><iframe src="https://streamable.com/s/6jkbm/scfibq" frameborder="0" width="100%" height="100%" allowfullscreen style="width:100%;height:100%;position:absolute;left:0px;top:0px;overflow:hidden;"></iframe></div>
+<video src="./assets/floor-plan.mp4" controls></video>
 
 ## Visual identity
 
