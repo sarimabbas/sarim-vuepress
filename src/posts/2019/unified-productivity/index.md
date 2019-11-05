@@ -20,11 +20,17 @@ I am a passionate user of productivity software, loosely defined here as applica
 
 The redesigned desktop app was unveiled in June 2019. Whereas previously the Dropbox client on macOS had comprised a combination of Finder extensions (e.g. right-click to share link) and an occasionally useful menu-bar preference panel (Figure 2.1), the new app includes a Finder-like interface for managing files (Figure 1).
 
-![Dropbox Desktop](./assets/db_desktop.png "Figure 1: New desktop app")
+<figure>
+  <img src='./assets/db_desktop.png'>
+  <figcaption>Figure 1: New desktop app</figcaption>
+</figure>
 
-|                                                                          |                                                                               |
-| ------------------------------------------------------------------------ | ----------------------------------------------------------------------------- |
-| ![Dropbox Prefs](./assets/db_pref_pane.png "Figure 2.1: Menu bar panel") | ![Dropbox Create](./assets/db_create.png "Figure 2.2: File creation options") |
+|          |     |
+| -------- | --- |
+| <figure> |
+  <img src='./assets/db_desktop.png'>
+  <figcaption>Figure 1</figcaption>
+</figure> | ![Dropbox Create](./assets/db_create.png "Figure 2.2: File creation options") |
 
 [In their blog post](https://blog.dropbox.com/topics/product-tips/new-dropbox) about the new app, the company comments on how fragmented our digital lives have become, ironically split between dozens of productivity apps that promise to wrangle our data and meet deadlines. Often, more time is wasted switching between Google Docs, Airtable, Notion, Todoist and 'massaging' their data representations for interoperability and sharing.
 

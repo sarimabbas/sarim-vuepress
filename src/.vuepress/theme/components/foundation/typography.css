@@ -99,3 +99,13 @@ blockquote {
 pre {
     border-radius: 5px;
 }
+
+figure {
+    margin: 0;
+}
+
+figcaption {
+    font-size: 0.9rem;
+    text-align: center;
+    /* margin: 0 auto; */
+}
