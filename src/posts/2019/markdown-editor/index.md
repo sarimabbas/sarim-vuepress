@@ -25,10 +25,10 @@ Markdown first saw widespread adoption by coders. It is used commonly in READMEs
 
 Here are some possible classes of users, listed:
 
--   Authors
--   Email users
--   Programmers
--   Students (and other academics)
+- Authors
+- Email users
+- Programmers
+- Students (and other academics)
 
 ### Students
 
@@ -68,9 +68,9 @@ These common features are as follows. After using these apps to take class notes
 
 Less important are other commonly observed features such as:
 
--   Custom theming of the preview
--   Auto-suggest
--   Export to many file formats e.g. PDF
+- Custom theming of the preview
+- Auto-suggest
+- Export to many file formats e.g. PDF
 
 Since they are not hugely relevant to the specified tasks.
 
@@ -80,13 +80,13 @@ Many tested apps include only a subset of essential features. This table is a wo
 
 ![Comparison](./comp.png "Essential feature comparison of Markdown editing apps")
 
-## Designing Lufz - a new editor
+## Designing Intrepid - a new editor
 
 For a student, the perfect Markdown editor would not only incorporate all the essential features needed for use cases #1 and #2, but could potentially make redundant other productivity apps with some well-executed moves.
 
-I decided to build my own Markdown editing app - Lufz, the Urdu word for, well, "word" 😄. Though far from ready, here is a screenshot of the work in progress:
+I decided to build my own Markdown editing app. Though far from ready, here is a screenshot of the work in progress:
 
-![Lufz](./lufz.png)
+![Intrepid](./lufz.png)
 
 Following are sketches and technical assessments of what is required.
 
@@ -102,17 +102,17 @@ How do these tree/hierarchical views work? On a save event, the Markdown documen
 
 Unlike MS Word, images cannot be "embedded" in Markdown, instead the user must manually write out the path to an image and be responsible for organizing these images (often adjacent to the `.md` file in the filesystem). This can be painful for lots of images.
 
-Adopting a bundle format like `.textbundle` allows for simulating embeds. Clipboard or dragged assets can be copied to the bundle, and thereafter the deletion of Markdown references can delete the underlying files. This provides both convenience and clean-up of unused assets, reducing file size. Lufz will support `.textbundle` as default.
+Adopting a bundle format like `.textbundle` allows for simulating embeds. Clipboard or dragged assets can be copied to the bundle, and thereafter the deletion of Markdown references can delete the underlying files. This provides both convenience and clean-up of unused assets, reducing file size.
 
 #### No lock in
 
-By implementing an established, transparent spec like `.textbundle`, Lufz will guarantee that users can inspect their files for access to the raw text and images within. They'll also be able to store them wherever they want.
+By implementing an established, transparent spec like `.textbundle`, Intrepid will guarantee that users can inspect their files for access to the raw text and images within. They'll also be able to store them wherever they want.
 
 #### Native performance
 
 Many editors use Electron - the popular framework for building cross-platform, desktop apps with JavaScript (JS) and HTML/CSS. These apps also have the advantage of leveraging a flood of existing text-editing and Markdown preview modules in the JS ecosystem.
 
-However, since Electron bundles an instance of Chromium, the resulting apps are often slow and memory-intensive. What this means in practice is that an editor will choke and crash when handling a large document. Not that light(er) Electron apps are unachievable - VSCode is a notable counter-example. One strategy is to replace essential rendering routines with WebAssembly, compiled from a systems language like Rust. Another is to use the proven Swift to build a performant macOS app. Lufz will be written in Swift.
+However, since Electron bundles an instance of Chromium, the resulting apps are often slow and memory-intensive. What this means in practice is that an editor will choke and crash when handling a large document. Not that light(er) Electron apps are unachievable - VSCode is a notable counter-example. One strategy is to replace essential rendering routines with WebAssembly, compiled from a systems language like Rust. Another is to use the proven Swift to build a performant macOS app.
 
 #### WYSIWYG
 
@@ -122,8 +122,8 @@ WYSIWYG modes also get flak - often because they are implemented poorly and obfu
 
 From a technical perspective, generating previews for Markdown involves parsing into an abstract syntax tree using a parser like CommonMark. The tree is traversed and preview marks are usually rendered in HTML. These marks can potentially be customized by the user with a little CSS.
 
-Lufz will have a WYSIWYG mode. The mode will be configurable - users will be able to turn off preview features they don't need so that the syntax is easier to work with.
+Intrepid will have a WYSIWYG mode. The mode will be configurable - users will be able to turn off preview features they don't need so that the syntax is easier to work with.
 
 ## Conclusion
 
-Many Markdown editing apps exist. But as a student with my particular use cases, they are deficient. After some research on best practices and common features, I decided to build my own Markdown editing app - Lufz. It is currently a work in progress, but hopefully I can build something that is enjoyable to use, for myself and others.
+Many Markdown editing apps exist. But as a student with my particular use cases, they are deficient. After some research on best practices and common features, I decided to build my own Markdown editing app - Intrepid. It is currently a work in progress, but hopefully I can build something that is enjoyable to use, for myself and others.
