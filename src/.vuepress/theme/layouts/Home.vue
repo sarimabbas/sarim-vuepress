@@ -1,7 +1,7 @@
 <script>
 import Wrapper from "../components/wrapper/Wrapper.vue";
-import Logo from "../components/Logo.vue";
-import Icon from "../components/Icon.vue";
+import Logo from "../components/logo/Logo.vue";
+import Icon from "../components/icon/Icon.vue";
 
 export default {
   name: "home",

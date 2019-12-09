@@ -11,11 +11,11 @@
     "license": "ISC",
     "devDependencies": {
         "@fortawesome/fontawesome-free": "^5.11.2",
+        "pug": "^2.0.4",
+        "pug-plain-loader": "^1.0.0",
         "vuepress": "^1.2.0"
     },
     "dependencies": {
-        "cutestrap": "^2.0.0-4",
-        "gutenberg-web-type": "^1.2.3",
         "luxon": "^1.19.3",
         "prismjs": "^1.17.1"
     }
