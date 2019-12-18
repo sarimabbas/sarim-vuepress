@@ -17,14 +17,18 @@ export default {
   background-clip: unset;
   -webkit-background-clip: unset;
   -webkit-text-fill-color: unset;
-  color: var(--lm-body-color);
+  color: white;
 }
+
+/* .regular:hover {
+  filter: brightness(1.3);
+} */
 
 .regular:hover {
-  filter: brightness(1.3);
+  filter: brightness(1);
 }
 
-@media (prefers-color-scheme: dark) {
+/* @media (prefers-color-scheme: dark) {
   .regular {
     color: white;
   }
@@ -32,5 +36,5 @@ export default {
   .regular:hover {
     filter: brightness(1);
   }
-}
+} */
 </style>
