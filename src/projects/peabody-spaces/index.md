@@ -3,11 +3,9 @@ date: 2019-10-16
 published: true
 title: Peabody Spaces
 type: project
-productImage: ./assets/productImage.png
-previewImage: ./assets/previewImage.png
+previewImage: /previews/peabodyspaces.png
 logoImage: ./assets/logoImage.png
 tags: ["Web Design", "React", "Variable Fonts", "Identity"]
-description: "Reimagined website for the Yale Peabody Museum"
 ---
 
 # Peabody Spaces

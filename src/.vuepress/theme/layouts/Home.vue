@@ -2,13 +2,15 @@
 import Wrapper from "../components/wrapper/Wrapper.vue";
 import Logo from "../components/logo/Logo.vue";
 import Icon from "../components/icon/Icon.vue";
+import ContentGrid from "../components/content-grid/ContentGrid";
 
 export default {
   name: "home",
   components: {
     Wrapper,
     Logo,
-    Icon
+    Icon,
+    ContentGrid
   }
 };
 </script>
@@ -23,16 +25,10 @@ export default {
       <!-- <br />Consumer of Hacker News. -->
       <br />Interested in engineering, design and cognition.
     </p>
-    <!-- links -->
-    <nav class="links">
-      <a href="/posts">
-        <span class="link m-zero">Posts</span>
-      </a>
-      <br />
-      <a href="/projects">
-        <span class="link m-zero">Projects</span>
-      </a>
-    </nav>
+    <!-- content cards -->
+    <br />
+    <ContentGrid />
+    <br />
     <!-- social -->
     <section class="social">
       <Icon name="fa-github" href="https://github.com/sarimabbas/" size="fa-lg" />

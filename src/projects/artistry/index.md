@@ -1,12 +1,10 @@
 ---
 published: true
 date: 2019-10-14
-productImage: ./assets/productImage.png
-previewImage: ./assets/previewImage.png
-logoImage: ./assets/logoImage.png
+previewImage: /previews/artistry.gif
+title: Artistry
 type: project
 tags: ["Product Design", "HCI", "Collaboration", "AR/VR"]
-description: "Collaboration concept for artists"
 ---
 
 # Artistry
@@ -35,18 +33,18 @@ Though we felt an eventual product could benefit a number of stakeholders (who, 
 
 Before we could address the documentation/collaboration problem with a specific solution, we conducted research with the aim of understanding how artists:
 
--   Create and document their works
--   Collect inspiration and ideas
--   Gather feedback and respond to critique
--   Deal with frustrations in their daily workflows
+- Create and document their works
+- Collect inspiration and ideas
+- Gather feedback and respond to critique
+- Deal with frustrations in their daily workflows
 
 ### Methods
 
 Our research methods were threefold:
 
--   Contextual inquiry: A short interview followed by observation of users attempting tasks in their natural environments. The hope is that users will reveal subconscious, tacit knowledge
--   Fly on the wall: Passive and unannounced observation of users in varied environments such as libraries and art studios
--   Formal interviews: 15-20 minute coffee talks with a pre-prepared set of questions
+- Contextual inquiry: A short interview followed by observation of users attempting tasks in their natural environments. The hope is that users will reveal subconscious, tacit knowledge
+- Fly on the wall: Passive and unannounced observation of users in varied environments such as libraries and art studios
+- Formal interviews: 15-20 minute coffee talks with a pre-prepared set of questions
 
 Our subjects included painters, sculptors, photographers and musicians.
 
@@ -54,12 +52,12 @@ Our subjects included painters, sculptors, photographers and musicians.
 
 We organized our findings into several themes as follows:
 
--   Collaboration: Working with others on projects can be difficult because of scheduling conflicts, unclear accountability, limited resources and miscommunication
--   Content creation: An non-specialist artist complained about Adobe Illustrator's difficulty. Many wished to automate laborious layout and alignment processes
--   Ideation: Several interviewees wished for a more efficient way to explore a design space. One suggested creating a tool to help designers permutate many possible ideas
--   Presentation: Many digital artists would rather take screenshots than go through the cumbersome process of exporting from design software. In a similar vein, assembling a portfolio was thought to be a chore
--   Sketching: Many designs start sketches on a piece of paper. Art professors routinely emphasize that physical, tactile interactions with one’s design are tremendously instructive. That experience is not yet digitally replicable
--   Designer-developer handoff: For those working in interdisciplinary teams or startup environments, communicating designs can be difficult. For instance, most tools do not have options to export code for developers
+- Collaboration: Working with others on projects can be difficult because of scheduling conflicts, unclear accountability, limited resources and miscommunication
+- Content creation: An non-specialist artist complained about Adobe Illustrator's difficulty. Many wished to automate laborious layout and alignment processes
+- Ideation: Several interviewees wished for a more efficient way to explore a design space. One suggested creating a tool to help designers permutate many possible ideas
+- Presentation: Many digital artists would rather take screenshots than go through the cumbersome process of exporting from design software. In a similar vein, assembling a portfolio was thought to be a chore
+- Sketching: Many designs start sketches on a piece of paper. Art professors routinely emphasize that physical, tactile interactions with one’s design are tremendously instructive. That experience is not yet digitally replicable
+- Designer-developer handoff: For those working in interdisciplinary teams or startup environments, communicating designs can be difficult. For instance, most tools do not have options to export code for developers
 
 ## Tasks
 
@@ -83,13 +81,13 @@ Around this time, we also thought of how we might serve an often overlooked subg
 With the prototype complete, we conducted [usability tests](https://www.nngroup.com/courses/usability-testing/?lm=usability-101-introduction-to-usability&pt=article) to find and fix flaws in our hybrid interface. We assigned artists two tasks.
 
 1. Within our mobile app, we asked them to:
-    - Rewind the history of a work
-    - Create a shared workspace
-    - Sketch using a paint brush
-    - Transition to the VR environment
+   - Rewind the history of a work
+   - Create a shared workspace
+   - Sketch using a paint brush
+   - Transition to the VR environment
 2. Within the VR environment, we asked them to:
-    - Model a sphere
-    - Work in tandem with another "user" (interviewer)
+   - Model a sphere
+   - Work in tandem with another "user" (interviewer)
 
 We swapped paper modules as the interaction went on, and periodically asked users about their rationale for an action. The testing revealed a number of flaws in the interface, including undo of destructive actions, selection of elements, and crucially, handling collaboration conflicts. The latter required thought: live collaboration conflicts are simple enough to reason about in Google Docs, but how should the actions of artists compose in an environment of pixels and voxels? We felt we had an answer in Github's graph model, that lets developers branch and merge. Our refined prototype adopted something similar:
 

@@ -1,20 +1,18 @@
 ---
 date: 2019-10-17
-description: Web platform to discover creative opportunities
+title: Thinkspaces
 published: true
 type: project
-logoImage: ./assets/logoImage.png
-productImage: ./assets/productImage.png
-previewImage: ./assets/previewImage.png
+previewImage: /previews/thinkspaces.png
 tags:
-    [
-        "Web Apps",
-        "Entrepreneurship",
-        "Startups",
-        "Collaboration",
-        "React",
-        "Firebase",
-    ]
+  [
+    "Web Apps",
+    "Entrepreneurship",
+    "Startups",
+    "Collaboration",
+    "React",
+    "Firebase",
+  ]
 ---
 
 # Thinkspaces
@@ -67,6 +65,6 @@ Still in its nascent stages, the codebase of Thinkspaces changes appreciably wee
 
 ## Usage and achievements
 
--   Thinkspaces has 200+ registered users, and 50+ projects.
--   Its expansion beyond Yale University has resulted in projects from UConn, Harvard and the wider New Haven community.
--   It was accepted into Yale's Tsai CITY Accelerator, a program with an ostensibly low, _low_ acceptance rate.
+- Thinkspaces has 200+ registered users, and 50+ projects.
+- Its expansion beyond Yale University has resulted in projects from UConn, Harvard and the wider New Haven community.
+- It was accepted into Yale's Tsai CITY Accelerator, a program with an ostensibly low, _low_ acceptance rate.

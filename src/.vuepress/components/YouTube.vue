@@ -23,6 +23,7 @@ export default {
   padding-bottom: 56.25%; /* 16:9 */
   padding-top: 25px;
   height: 0;
+  /* border-radius: 4px; */
 }
 .videoWrapper iframe {
   position: absolute;
@@ -30,5 +31,6 @@ export default {
   left: 0;
   width: 100%;
   height: 100%;
+  border-radius: 4px;
 }
 </style>

@@ -22,7 +22,8 @@ export default {
   margin-right: auto; /* 1 */
   margin-left: auto; /* 1 */
 
-  max-width: 750px; /* 2 */
+  /* max-width: 750px;  */
+  max-width: 1000px;
 
   /* padding-right: 10px;
   padding-left: 10px;  */

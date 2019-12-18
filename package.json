@@ -16,6 +16,7 @@
         "vuepress": "^1.2.0"
     },
     "dependencies": {
+        "animate-css-grid": "^1.4.3",
         "luxon": "^1.19.3",
         "prismjs": "^1.17.1"
     }

@@ -10,8 +10,8 @@ This website's logo flips between light and dark based on the recent `prefers-co
 
 ```html
 <picture>
-    <source srcset="/white.png" media="(prefers-color-scheme: dark)" />
-    <img src="/black.png" width="50px" />
+  <source srcset="/logo/white.png" media="(prefers-color-scheme: dark)" />
+  <img src="/logo/black.png" width="50px" />
 </picture>
 ```
 

@@ -3,6 +3,7 @@ date: 2019-11-26
 published: true
 title: Intrepid
 type: project
+previewImage: /previews/intrepid.png
 tags: ["Electron", "Vue", "ProseMirror"]
 ---
 

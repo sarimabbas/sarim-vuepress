@@ -3,8 +3,8 @@
     <br />
     <a href="/">
       <picture>
-        <source srcset="/white.png" media="(prefers-color-scheme: dark)" />
-        <img src="/black.png" width="50px" />
+        <source srcset="/logo/white.png" media="(prefers-color-scheme: dark)" />
+        <img src="/logo/black.png" width="50px" />
       </picture>
     </a>
   </div>

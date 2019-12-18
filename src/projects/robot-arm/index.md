@@ -1,10 +1,8 @@
 ---
-description: 3D-printed, Arduino-powered robot arm for class project
 published: true
 type: project
-logoImage: ./assets/logoImage.png
-productImage: ./assets/previewImage.png
-previewImage: ./assets/previewImage.png
+title: 3D-printed robot arm
+previewImage: /previews/robotarm.png
 tags: ["Robotics", "Arduino", "C++", "3D Printing"]
 date: 2019-10-13
 ---
@@ -39,10 +37,10 @@ To use this demo, upload `src/demo_2` to the Arduino. Then, open the controller 
 
 Here are the controls:
 
--   Moving the left stick left-right turns the robot base.
--   Moving the left stick forward-backward turns the robot shoulder.
--   Moving the right stick forward-backward turns the robot elbow.
--   Pressing A opens and closes the gripper.
+- Moving the left stick left-right turns the robot base.
+- Moving the left stick forward-backward turns the robot shoulder.
+- Moving the right stick forward-backward turns the robot elbow.
+- Pressing A opens and closes the gripper.
 
 Here's a video of the interaction:
 
@@ -96,12 +94,12 @@ ROS opens up a number of possibilities. Using the pub/sub messaging system, it i
 
 Besides the robot, the following additional components are required:
 
--   1 - Arduino Uno
--   4 - rotary encoders
--   1 - HC-SR04 ultrasonic sensor
--   4 - SG90 servos
--   1 - 4xAA Battery holder (to power servos)
--   Breadboard and wire
+- 1 - Arduino Uno
+- 4 - rotary encoders
+- 1 - HC-SR04 ultrasonic sensor
+- 4 - SG90 servos
+- 1 - 4xAA Battery holder (to power servos)
+- Breadboard and wire
 
 These are connected as per the following breadboard view:
 
@@ -111,31 +109,31 @@ These are connected as per the following breadboard view:
 
 The robot driver has a `driverSetup()` function which accepts pins for each servo. In the schematic, the following pins are used:
 
--   frontBack/FB: 10
--   upDown/UD: 11
--   gripper/GR: 12
--   base/BS: 13
+- frontBack/FB: 10
+- upDown/UD: 11
+- gripper/GR: 12
+- base/BS: 13
 
 The rotary encoders are connected to:
 
--   frontBack/FB: 2, 3
--   upDown/UD: 4, 5
--   gripper/GR: 6, 7
--   base/BS: 8, 9
+- frontBack/FB: 2, 3
+- upDown/UD: 4, 5
+- gripper/GR: 6, 7
+- base/BS: 8, 9
 
 Lastly, the HC-SR04 ultrasonic sensor is connected to:
 
--   TRIG: A0
--   ECHO: A1
+- TRIG: A0
+- ECHO: A1
 
 ### Software
 
 The Arduino IDE is required. Within the IDE, the following libraries must be installed:
 
--   Encoder
--   Bifrost for HC-SR04
--   ArduinoJson
--   Servo
+- Encoder
+- Bifrost for HC-SR04
+- ArduinoJson
+- Servo
 
 A Python virtual environment is also required for the game controller demo. To create one:
 
