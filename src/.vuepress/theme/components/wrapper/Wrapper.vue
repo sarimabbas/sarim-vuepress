@@ -12,7 +12,7 @@ export default {
   props: ["width"],
   data() {
     return {
-      maxWidth: this.width || "70%"
+      maxWidth: this.width || "1000px"
     };
   },
   name: "wrapper",
