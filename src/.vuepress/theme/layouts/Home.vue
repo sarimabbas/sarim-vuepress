@@ -23,8 +23,8 @@ export default {
     <h1 style="text-align: center">Sarim Abbas</h1>
     <p style="text-align: center">
       Computer Science major at Yale.
-      <!-- <br />Consumer of Hacker News. -->
-      <br />Interested in engineering, design and cognition.
+      <br />Religious consumer of Hacker News. <br />Interested in engineering,
+      design and cognition.
     </p>
     <!-- content cards -->
     <br />
