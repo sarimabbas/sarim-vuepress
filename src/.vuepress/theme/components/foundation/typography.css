@@ -59,14 +59,6 @@ p {
   hyphens: auto;
 }
 
-/* @media (prefers-color-scheme: dark) {
-    html {
-        -webkit-font-smoothing: antialiased;
-        -moz-osx-font-smoothing: grayscale;
-        text-rendering: optimizeLegibility;
-    }
-} */
-
 a {
   /* gradient text */
   background: linear-gradient(to right, #ff69b4, #ff9280);

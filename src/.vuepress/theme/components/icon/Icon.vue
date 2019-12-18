@@ -20,21 +20,7 @@ export default {
   color: white;
 }
 
-/* .regular:hover {
-  filter: brightness(1.3);
-} */
-
 .regular:hover {
   filter: brightness(1);
 }
-
-/* @media (prefers-color-scheme: dark) {
-  .regular {
-    color: white;
-  }
-
-  .regular:hover {
-    filter: brightness(1);
-  }
-} */
 </style>

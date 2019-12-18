@@ -1,6 +1,6 @@
 <template>
   <Foundation>
-    <div class="wrapper">
+    <div class="wrapper" :style="{ 'max-width': maxWidth }">
       <slot></slot>
     </div>
   </Foundation>
@@ -9,6 +9,12 @@
 <script>
 import Foundation from "../foundation/Foundation.vue";
 export default {
+  props: ["width"],
+  data() {
+    return {
+      maxWidth: this.width || "70%"
+    };
+  },
   name: "wrapper",
   components: {
     Foundation
@@ -23,7 +29,7 @@ export default {
   margin-left: auto; /* 1 */
 
   /* max-width: 750px;  */
-  max-width: 1000px;
+  /* max-width: 90%; */
 
   /* padding-right: 10px;
   padding-left: 10px;  */

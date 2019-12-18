@@ -16,16 +16,18 @@ export default {
 </script>
 
 <template>
-  <Wrapper>
-    <Logo />
+  <Wrapper width="90%">
+    <p style="text-align: center"><Logo /></p>
+
     <!-- header text -->
-    <h1>Sarim Abbas</h1>
-    <p>
+    <h1 style="text-align: center">Sarim Abbas</h1>
+    <p style="text-align: center">
       Computer Science major at Yale.
       <!-- <br />Consumer of Hacker News. -->
       <br />Interested in engineering, design and cognition.
     </p>
     <!-- content cards -->
+    <br />
     <br />
     <ContentGrid />
     <br />

@@ -109,6 +109,7 @@ export default {
         >Posts</a
       >
     </div>
+    <br />
     <div class="grid" is="transition-group" name="list">
       <Card
         v-for="(item, index) in shownContent"
@@ -144,6 +145,7 @@ export default {
 
 .control-option {
   all: unset;
+  color: white !important;
   margin-left: 5px;
   margin-right: 5px;
   background-color: gray;
@@ -156,7 +158,7 @@ export default {
 }
 
 .control-option-active {
-  background-color: darkblue;
+  background-image: linear-gradient(to right, #ff69b4, #ff9280);
 }
 
 .control-option:hover {
@@ -165,13 +167,13 @@ export default {
 }
 
 .grid {
-  --auto-grid-min-size: 15rem;
+  --auto-grid-min-size: 19rem;
   display: grid;
   grid-template-columns: repeat(
     auto-fit,
     minmax(var(--auto-grid-min-size), 1fr)
   );
-  grid-gap: 1rem;
-  grid-auto-rows: 10rem;
+  grid-gap: 2rem;
+  grid-auto-rows: 14rem;
 }
 </style>
