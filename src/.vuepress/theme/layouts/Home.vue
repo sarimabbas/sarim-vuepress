@@ -29,15 +29,22 @@ export default {
     <br />
     <ContentGrid />
     <br />
+    <br />
     <!-- social -->
     <section class="social">
-      <Icon name="fa-github" href="https://github.com/sarimabbas/" size="fa-lg" />
-      <Icon name="fa-linkedin" href="https://www.linkedin.com/in/sarimabbas/" size="fa-lg" />
+      <Icon
+        name="fa-github"
+        href="https://github.com/sarimabbas/"
+        size="fa-lg"
+      />
+      <Icon
+        name="fa-linkedin"
+        href="https://www.linkedin.com/in/sarimabbas/"
+        size="fa-lg"
+      />
     </section>
   </Wrapper>
 </template>
-
-
 
 <style scoped>
 .links {

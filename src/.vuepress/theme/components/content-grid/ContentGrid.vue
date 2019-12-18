@@ -8,7 +8,7 @@ export default {
   data() {
     return {
       content: [],
-      filterProperties: ["all"]
+      filterProperties: ["project"]
     };
   },
   computed: {
@@ -111,8 +111,8 @@ export default {
     </div>
     <div class="grid" is="transition-group" name="list">
       <Card
-        v-for="item in shownContent"
-        :key="item"
+        v-for="(item, index) in shownContent"
+        :key="index"
         :href="item.path"
         :headtext="item.frontmatter.title"
         :subtext="item.frontmatter.description"

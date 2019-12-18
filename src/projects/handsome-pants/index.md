@@ -4,6 +4,7 @@ date: 2019-10-12
 type: project
 previewImage: /previews/handsomepants.png
 title: Handsome Pants
+description: Yale's first native laundry app
 tags: ["React Native", "FaaS", "Utilities"]
 ---
 

@@ -3,6 +3,7 @@ published: true
 type: project
 previewImage: /previews/waqt.png
 title: Waqt
+description: Timezone tracking web app
 date: 2019-10-15
 tags: ["Web Apps", "Timezones", "React", "Moment.js"]
 ---

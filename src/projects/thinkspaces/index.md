@@ -4,6 +4,7 @@ title: Thinkspaces
 published: true
 type: project
 previewImage: /previews/thinkspaces.png
+description: Student talent meets opportunity
 tags:
   [
     "Web Apps",

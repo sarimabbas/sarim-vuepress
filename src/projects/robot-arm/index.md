@@ -3,6 +3,7 @@ published: true
 type: project
 title: 3D-printed robot arm
 previewImage: /previews/robotarm.png
+description: Arduino + Xbox Controller = Fun!
 tags: ["Robotics", "Arduino", "C++", "3D Printing"]
 date: 2019-10-13
 ---

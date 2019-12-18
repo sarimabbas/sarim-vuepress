@@ -4,6 +4,7 @@ published: true
 title: Peabody Spaces
 type: project
 previewImage: /previews/peabodyspaces.gif
+description: Reimagining the famed museum
 logoImage: ./assets/logoImage.png
 tags: ["Web Design", "React", "Variable Fonts", "Identity"]
 ---

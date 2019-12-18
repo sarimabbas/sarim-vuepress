@@ -3,6 +3,7 @@ published: true
 date: 2019-10-14
 previewImage: /previews/artistry.gif
 title: Artistry
+description: Collaboration concept for artists
 type: project
 tags: ["Product Design", "HCI", "Collaboration", "AR/VR"]
 ---
