@@ -9,7 +9,7 @@ export default {
     <a :href="href" class="card-link" />
     <img :src="image" width="100%" class="image" />
     <div class="text">
-      <h3 class="headtext">{{ headtext }}</h3>
+      <h4 class="headtext">{{ headtext }}</h4>
       <p class="subtext">{{ subtext }}</p>
     </div>
   </div>
@@ -58,11 +58,19 @@ export default {
   display: block;
   position: relative;
 
-  background-image: linear-gradient(
+  /* background-image: linear-gradient(
     0deg,
     rgba(0, 0, 0, 0.7) 0%,
     rgba(0, 0, 0, 0.5) 25%,
     rgba(0, 0, 0, 0.2) 50%,
+    rgba(0, 0, 0, 0) 100%
+  ); */
+
+  background-image: linear-gradient(
+    0deg,
+    rgba(0, 0, 0, 0.8) 0%,
+    rgba(0, 0, 0, 0.6) 32%,
+    rgba(0, 0, 0, 0.2) 69%,
     rgba(0, 0, 0, 0) 100%
   );
 
@@ -89,6 +97,7 @@ export default {
   margin: 0;
   padding: 0;
   margin-bottom: 20px;
+  font-size: 0.9rem;
 }
 
 .image {

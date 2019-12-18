@@ -1,6 +1,8 @@
 ---
 type: post
 published: true
+previewImage: /previews/urlshortener.png
+title: URL shortener with Netlify
 date: 2019-10-16
 ---
 
@@ -10,7 +12,6 @@ At the root level of any Netlify project is the `_redirects` file, which can be 
 
 1. Start by creating a package with `npm init`
 2. Add a `_redirects` file, and populate it with redirects as follows:
-
 
 ```
 /my-link       https://en.wikipedia.org/wiki/Pterotopteryx_tshatkalica

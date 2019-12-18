@@ -3,6 +3,8 @@ date: 2018-12-09
 tags: ["Experiments"]
 published: true
 type: post
+previewImage: /previews/emailnetworks.png
+title: Visualizing networks from email chains
 ---
 
 # Visualizing a social network from an email chain
@@ -78,8 +80,8 @@ That’s about it!
 
 Such a graph can help us intuit about our friendships and associations, but with a limited dataset, and by its nature, the algorithm will always overemphasize the role of the self. By collecting more data from friends (get their permission!) or by having a means to track where a forwarded email ends up (like [Boomerang](https://www.boomeranggmail.com/); probably unethical), it may be possible to construct a larger and more accurate graph.
 
-From nested email chains, an additional source of data is the body text of the email itself. With repeated forwarding, previous email addresses are collapsed into the body rather than the header. A regular expression here, along with some logic to categorize the senders and receivers, can help pull these emails. 
+From nested email chains, an additional source of data is the body text of the email itself. With repeated forwarding, previous email addresses are collapsed into the body rather than the header. A regular expression here, along with some logic to categorize the senders and receivers, can help pull these emails.
 
-However, the more data is collected, the more cluttered the graph becomes. To keep things clean, only nodes that meet a certain degree threshold can be included in the graph, and stragglers can be removed. Alternatively, all found nodes can be included, but especially well-connected nodes can retain labels. 
+However, the more data is collected, the more cluttered the graph becomes. To keep things clean, only nodes that meet a certain degree threshold can be included in the graph, and stragglers can be removed. Alternatively, all found nodes can be included, but especially well-connected nodes can retain labels.
 
 I’ve colored the graph using a linear interpolation from a start to end RGB color. But it could be useful to start from two opposite colors and meet somewhere in the middle. One color extreme could represent maximum out-degree, and the other extreme could represent maximum in-degree. This may help isolate “givers” and “takers” in this network.

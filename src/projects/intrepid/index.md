@@ -4,6 +4,7 @@ published: true
 title: Intrepid
 type: project
 previewImage: /previews/intrepid.png
+description: Note-taking app for macOS
 tags: ["Electron", "Vue", "ProseMirror"]
 ---
 

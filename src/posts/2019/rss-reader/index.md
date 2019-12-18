@@ -4,6 +4,8 @@ tags: ["Notes", "RSS", "App Recommendation"]
 sidebar: false
 published: true
 type: post
+previewImage: /previews/rssreader.png
+title: The best RSS reader
 ---
 
 # Why RSS + the best reader app
@@ -24,4 +26,3 @@ My criteria for what makes a good reader:
 \#1 is the biggest for me. One of the limitations of RSS is that it usually provides the most recent 10-20 articles, as set by the web publisher. However, I’d like an RSS reader that can let me browse entire archives without use of a full web browser. [Google Reader](https://gcemetery.co/google-reader/) was able to do this (RIP), and so can Feedly and [Inoreader](https://www.inoreader.com/). The latter two are not just web and mobile apps, but also services that cache RSS feeds from the point they are first submitted by _any_ user.
 
 Until “non-service” apps like Reeder can load older data, Feedly and Inoreader are the best bet. They also meet the other listed criteria. What breaks the tie between them? Although their free-tier web apps are comparable, Feedly’s iOS app is less clunky than Inoreader’s (but still not great), which gives it the edge.
-

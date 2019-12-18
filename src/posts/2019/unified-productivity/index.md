@@ -4,6 +4,8 @@ sidebar: true
 type: post
 date: 2019-10-01
 tags: ["Design Log"]
+previewImage: /previews/unifiedproductivity.png
+title: A unified productivity application
 ---
 
 # The unified productivity application
@@ -62,9 +64,9 @@ The improvements I propose can be organized into three broad categories:
 1. New container file format
 2. Favor folder, not file, integrations
 3. User interface changes
-    1. Sidebar organization
-    2. Collaboration/chat
-    3. View options
+   1. Sidebar organization
+   2. Collaboration/chat
+   3. View options
 
 Let's call our hypothetical, improved app **Chaos.app** (an ironic but fitting name that implies that this app will help us wrangle the chaos of our digital lives).
 

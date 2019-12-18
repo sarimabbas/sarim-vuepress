@@ -1,10 +1,11 @@
 ---
 date: 2019-07-14
 tags: ["Design Log", "Markdown", "WYSIWYG"]
-description: Design discussion about Markdown, current editors and their strengths/weaknesses. Also some thoughts about what it takes to make a good editor, and a peek at my own work in progress.
 sidebar: true
 published: true
 type: post
+previewImage: /previews/markdowneditor.png
+title: Designing a new Markdown editor
 ---
 
 # Designing a new Markdown editor

@@ -1,7 +1,6 @@
 <script>
 import Card from "../card/Card";
 import { DateTime } from "luxon";
-import { wrapGrid } from "animate-css-grid";
 export default {
   components: {
     Card
@@ -26,13 +25,6 @@ export default {
     }
   },
   mounted: function() {
-    // css grid stuff
-    wrapGrid(this.$refs.contentgrid, {
-      easing: "backOut",
-      stagger: 10,
-      duration: 400
-    });
-
     // get posts and projects
     let filtered = this.$site.pages.filter(
       p => p.frontmatter.type === "project" || p.frontmatter.type === "post"
@@ -117,10 +109,10 @@ export default {
         >Posts</a
       >
     </div>
-    <div class="grid" ref="contentgrid">
+    <div class="grid" is="transition-group" name="list">
       <Card
         v-for="item in shownContent"
-        :key="item.key"
+        :key="item"
         :href="item.path"
         :headtext="item.frontmatter.title"
         :subtext="item.frontmatter.description"
@@ -129,6 +121,18 @@ export default {
     </div>
   </div>
 </template>
+
+<style>
+.list-enter-active,
+.list-leave-active {
+  transition: all 1s;
+}
+.list-enter,
+.list-leave-to {
+  opacity: 0;
+  transform: translateY(30px);
+}
+</style>
 
 <style scoped>
 .controls {
@@ -168,6 +172,6 @@ export default {
     minmax(var(--auto-grid-min-size), 1fr)
   );
   grid-gap: 1rem;
-  grid-auto-rows: 0.7fr;
+  grid-auto-rows: 10rem;
 }
 </style>

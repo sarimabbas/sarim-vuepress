@@ -2,6 +2,8 @@
 type: post
 date: 2019-10-13
 published: true
+previewImage: /previews/darkmode.jpeg
+title: Dark mode media queries
 ---
 
 # Change image for dark mode with a media query
