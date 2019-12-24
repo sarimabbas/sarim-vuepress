@@ -1,6 +1,7 @@
 <script>
 import Card from "../card/Card";
 import { DateTime } from "luxon";
+const uuidv4 = require("uuid/v4");
 export default {
   components: {
     Card
@@ -11,19 +12,19 @@ export default {
       filterProperties: ["project"]
     };
   },
-  computed: {
-    shownContent: function() {
-      // console.log("FILTERPROP", this.filterProperties);
-      const compile = this.content.filter(item => {
-        if (this.filterProperties.includes("all")) {
-          return true;
-        }
-        return this.filterProperties.includes(item.frontmatter.type);
-      });
-      // console.log("COMPILE", compile);
-      return compile;
-    }
-  },
+  //   computed: {
+  //     shownContent: function() {
+  //       // console.log("FILTERPROP", this.filterProperties);
+  //       const compile = this.content.filter(item => {
+  //         if (this.filterProperties.includes("all")) {
+  //           return true;
+  //         }
+  //         return this.filterProperties.includes(item.frontmatter.type);
+  //       });
+  //       // console.log("COMPILE", compile);
+  //       return compile;
+  //     }
+  //   },
   mounted: function() {
     // get posts and projects
     let filtered = this.$site.pages.filter(
@@ -42,7 +43,10 @@ export default {
     // convert dates to better format
     filtered = filtered.map(p => {
       return {
+        //   add uuid
         ...p,
+        uuid: uuidv4(),
+        shown: false,
         frontmatter: {
           ...p.frontmatter,
           date: DateTime.fromISO(p.frontmatter.date).toFormat("LLL yyyy")
@@ -51,6 +55,8 @@ export default {
     });
     // set final
     this.content = filtered;
+    // decide what to show
+    this.applyFiltersToContent();
   },
   methods: {
     toggleFilter(property) {
@@ -74,6 +80,18 @@ export default {
           // add the property if not already included
           this.filterProperties.push(property);
         }
+      }
+      this.applyFiltersToContent();
+    },
+    applyFiltersToContent() {
+      if (this.filterProperties.includes("all")) {
+        this.content.forEach(p => {
+          p.shown = true;
+        });
+      } else {
+        this.content.forEach(p => {
+          p.shown = this.filterProperties.includes(p.frontmatter.type);
+        });
       }
     }
   }
@@ -110,10 +128,12 @@ export default {
       >
     </div>
     <br />
-    <div class="grid" is="transition-group" name="list">
+    <div class="grid" is="transition-group" name="list-complete">
       <Card
-        v-for="(item, index) in shownContent"
-        :key="index"
+        class="list-complete-item"
+        v-for="(item, index) in content"
+        v-if="item.shown"
+        :key="item.uuid"
         :href="item.path"
         :headtext="item.frontmatter.title"
         :subtext="item.frontmatter.description"
@@ -124,14 +144,18 @@ export default {
 </template>
 
 <style>
-.list-enter-active,
-.list-leave-active {
+.list-complete-item {
   transition: all 1s;
+  display: inline-block;
+  margin-right: 10px;
 }
-.list-enter,
-.list-leave-to {
+.list-complete-enter, .list-complete-leave-to
+/* .list-complete-leave-active below version 2.1.8 */ {
   opacity: 0;
   transform: translateY(30px);
+}
+.list-complete-leave-active {
+  position: absolute;
 }
 </style>
 

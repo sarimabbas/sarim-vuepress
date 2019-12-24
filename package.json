@@ -17,6 +17,7 @@
     },
     "dependencies": {
         "luxon": "^1.19.3",
-        "prismjs": "^1.17.1"
+        "prismjs": "^1.17.1",
+        "uuid": "^3.3.3"
     }
 }
