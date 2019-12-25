@@ -105,6 +105,7 @@ export default {
         :headtext="item.frontmatter.title"
         :subtext="item.frontmatter.description"
         :image="item.frontmatter.previewImage"
+        :lazy="true"
       />
     </div>
   </div>

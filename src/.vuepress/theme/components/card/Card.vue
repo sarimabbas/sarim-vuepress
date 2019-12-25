@@ -1,13 +1,21 @@
 <script>
 export default {
-  props: ["image", "headtext", "subtext", "href"]
+  props: ["image", "headtext", "subtext", "href", "lazy"]
 };
 </script>
 
 <template>
   <div class="card">
     <a :href="href" class="card-link" />
-    <img v-lazy="image" width="100%" class="image" />
+    <img
+      v-if="lazy"
+      v-lazy="{
+        src: this.image,
+        loading: 'https://gradientjoy.com/380x250?id=185'
+      }"
+      class="image"
+    />
+    <img v-else :src="image" class="image" />
     <div class="text">
       <h4 class="headtext">{{ headtext }}</h4>
       <p class="subtext">{{ subtext }}</p>
@@ -103,5 +111,6 @@ export default {
 .image {
   object-fit: cover;
   height: 100%;
+  width: 100%;
 }
 </style>
