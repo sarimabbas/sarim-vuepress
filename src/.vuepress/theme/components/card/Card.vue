@@ -1,21 +1,36 @@
 <script>
+const isImage = require("is-image");
 export default {
-  props: ["image", "headtext", "subtext", "href", "lazy"]
+  props: ["image", "headtext", "subtext", "href", "lazy"],
+  methods: {
+    isVideo: function(src) {
+      return !isImage(src);
+    }
+  }
 };
 </script>
 
 <template>
   <div class="card">
     <a :href="href" class="card-link" />
+    <video
+      v-if="isVideo(image)"
+      autoplay
+      loop
+      muted
+      playsinline
+      :src="image"
+      class="image"
+    />
     <img
-      v-if="lazy"
+      v-else-if="lazy"
       v-lazy="{
-        src: this.image,
-        loading: 'https://gradientjoy.com/380x250?id=185'
+        src: this.image
       }"
       class="image"
     />
     <img v-else :src="image" class="image" />
+
     <div class="text">
       <h4 class="headtext">{{ headtext }}</h4>
       <p class="subtext">{{ subtext }}</p>

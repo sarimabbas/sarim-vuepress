@@ -2,7 +2,7 @@
 type: project
 date: 2019-11-13
 title: Moiré Sculpture
-previewImage: /previews/moiresculpture.gif
+previewImage: /previews/moiresculpture.mp4
 published: true
 ---
 

@@ -3,7 +3,7 @@ date: 2019-10-16
 published: true
 title: Peabody Spaces
 type: project
-previewImage: /previews/peabodyspaces.gif
+previewImage: /previews/peabodyspaces.mp4
 description: Reimagining the famed museum
 logoImage: ./assets/logoImage.png
 tags: ["Web Design", "React", "Variable Fonts", "Identity"]

@@ -2,7 +2,7 @@
 date: 2019-12-10
 published: true
 title: Laser Piano
-previewImage: /previews/laserpiano.gif
+previewImage: /previews/laserpiano.mp4
 type: project
 ---
 

@@ -2,7 +2,7 @@
 type: project
 date: 2019-11-12
 title: Generative Emoji Art
-previewImage: /previews/generativeemoji.gif
+previewImage: /previews/generativeemoji.mp4
 published: true
 ---
 
