@@ -1,3 +1,9 @@
+# Website
+
+- [Website](#website)
+- [Useful commands](#useful-commands)
+  - [Convert GIFs to MP4](#convert-gifs-to-mp4)
+
 # Useful commands
 
 ## Convert GIFs to MP4 
