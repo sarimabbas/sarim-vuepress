@@ -22,15 +22,9 @@ export default {
       :src="image"
       class="image"
     />
-    <img
-      v-else-if="lazy"
-      v-lazy="{
-        src: this.image
-      }"
-      class="image"
-    />
-    <img v-else :src="image" class="image" />
-
+    <lazy-component>
+      <img :src="image" class="image" />
+    </lazy-component>
     <div class="text">
       <h4 class="headtext">{{ headtext }}</h4>
       <p class="subtext">{{ subtext }}</p>

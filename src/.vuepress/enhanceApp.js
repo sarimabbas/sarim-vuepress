@@ -9,6 +9,7 @@ export default ({
   // ...apply enhancements to the app
   Vue.use(VueLazyload, {
     observer: true,
+    lazyComponent: true,
     preLoad: 1.3,
     attempt: 1
   });
