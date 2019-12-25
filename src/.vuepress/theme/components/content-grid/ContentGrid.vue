@@ -47,27 +47,7 @@ export default {
   },
   methods: {
     toggleFilter(property) {
-      // clear everything else if "all" is set
-      if (property == "all") {
-        this.filterProperties = [];
-        this.filterProperties.push("all");
-      } else {
-        // for other stuff, remove "all"
-        this.filterProperties = this.filterProperties.filter(p => p !== "all");
-        // if the property is already included
-        if (this.filterProperties.includes(property)) {
-          // remove the property only if the resulting array will be non empty
-          if (this.filterProperties.length > 1) {
-            // remove the property
-            this.filterProperties = this.filterProperties.filter(
-              p => p !== property
-            );
-          }
-        } else {
-          // add the property if not already included
-          this.filterProperties.push(property);
-        }
-      }
+      this.filterProperties = [property];
       this.applyFiltersToContent();
     },
     applyFiltersToContent() {
