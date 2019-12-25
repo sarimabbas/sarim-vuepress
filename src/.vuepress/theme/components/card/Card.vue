@@ -7,7 +7,7 @@ export default {
 <template>
   <div class="card">
     <a :href="href" class="card-link" />
-    <img :src="image" width="100%" class="image" />
+    <img v-lazy="image" width="100%" class="image" />
     <div class="text">
       <h4 class="headtext">{{ headtext }}</h4>
       <p class="subtext">{{ subtext }}</p>
