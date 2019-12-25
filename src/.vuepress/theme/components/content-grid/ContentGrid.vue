@@ -12,19 +12,6 @@ export default {
       filterProperties: ["project"]
     };
   },
-  //   computed: {
-  //     shownContent: function() {
-  //       // console.log("FILTERPROP", this.filterProperties);
-  //       const compile = this.content.filter(item => {
-  //         if (this.filterProperties.includes("all")) {
-  //           return true;
-  //         }
-  //         return this.filterProperties.includes(item.frontmatter.type);
-  //       });
-  //       // console.log("COMPILE", compile);
-  //       return compile;
-  //     }
-  //   },
   mounted: function() {
     // get posts and projects
     let filtered = this.$site.pages.filter(
@@ -128,7 +115,7 @@ export default {
       >
     </div>
     <br />
-    <div class="grid" is="transition-group" name="list-complete">
+    <div class="grid">
       <Card
         class="list-complete-item"
         v-for="(item, index) in content"
@@ -142,22 +129,6 @@ export default {
     </div>
   </div>
 </template>
-
-<style>
-.list-complete-item {
-  transition: all 1s;
-  display: inline-block;
-  margin-right: 10px;
-}
-.list-complete-enter, .list-complete-leave-to
-/* .list-complete-leave-active below version 2.1.8 */ {
-  opacity: 0;
-  transform: translateY(30px);
-}
-.list-complete-leave-active {
-  position: absolute;
-}
-</style>
 
 <style scoped>
 .controls {
