@@ -1,4 +1,5 @@
 import VueLazyload from "vue-lazyload";
+import VueLazyLoadVideo from "vue-lazyload-video";
 
 export default ({
   Vue, // the version of Vue being used in the VuePress app
@@ -12,4 +13,6 @@ export default ({
     preLoad: 1.3,
     attempt: 1
   });
+
+  Vue.use(VueLazyLoadVideo);
 };

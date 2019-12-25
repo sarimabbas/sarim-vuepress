@@ -13,15 +13,7 @@ export default {
 <template>
   <div class="card">
     <a :href="href" class="card-link" />
-    <video
-      v-if="isVideo(image)"
-      autoplay
-      loop
-      muted
-      playsinline
-      :src="image"
-      class="image"
-    />
+    <LazyVideoAsGIF v-if="isVideo(image)" :src="image" class="image" />
     <img v-else v-lazy="image" class="image" />
     <div class="text">
       <h4 class="headtext">{{ headtext }}</h4>
