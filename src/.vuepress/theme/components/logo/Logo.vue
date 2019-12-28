@@ -2,10 +2,8 @@
   <div>
     <br />
     <a href="/">
-      <picture>
-        <!-- <source srcset="/logo/white.png" media="(prefers-color-scheme: dark)" /> -->
-        <img src="/logo/white.png" width="50px" />
-      </picture>
+      <img src="/logo/white.png" width="50px" />
+      <!-- <img src="/logo/white_new.png" width="80px" /> -->
     </a>
   </div>
 </template>
