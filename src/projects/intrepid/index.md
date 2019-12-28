@@ -14,7 +14,7 @@ Note-taking app for macOS
 
 ![Preview](./assets/previewImage.png)
 
-<Button href="https://github.com/sarimabbas/intrepid/releases/latest" external="true">Download latest release</Button>
+<Button href="https://sarimabbas.github.io/intrepid/public/" external="true">Download from website</Button>
 
 <Button href="https://github.com/sarimabbas/intrepid" external="true">View source code</Button>
 
