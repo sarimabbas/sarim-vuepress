@@ -13,11 +13,10 @@ module.exports = {
   },
   plugins: [
     [
-      "vuepress-plugin-rss",
+      require("./plugins/rss.js"),
       {
         base_url: "/", // required
         site_url: "https://sarimabbas.com", // required
-        copyright: "2019 Sarim Abbas", // optional
         // filter posts
         filter: frontmatter => {
           return frontmatter.published;
