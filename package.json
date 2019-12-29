@@ -15,7 +15,8 @@
         "pug": "^2.0.4",
         "pug-plain-loader": "^1.0.0",
         "sass-loader": "^8.0.0",
-        "vuepress": "^1.2.0"
+        "vuepress": "^1.2.0",
+        "vuepress-plugin-rss": "^2.0.0"
     },
     "dependencies": {
         "is-image": "^3.0.0",
