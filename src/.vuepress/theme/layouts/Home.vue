@@ -35,15 +35,18 @@ export default {
     <!-- social -->
     <section class="social">
       <Icon
+        type="fab"
         name="fa-github"
         href="https://github.com/sarimabbas/"
         size="fa-lg"
       />
       <Icon
+        type="fab"
         name="fa-linkedin"
         href="https://www.linkedin.com/in/sarimabbas/"
         size="fa-lg"
       />
+      <Icon type="fas" name="fa-rss" href="/rss.xml" size="fa-lg" />
     </section>
   </Wrapper>
 </template>

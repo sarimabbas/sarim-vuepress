@@ -1,13 +1,13 @@
 <template>
   <a :href="href" class="regular">
-    <i :class="['fab', name, size, 'regular']"></i>
+    <i :class="[type, name, size, 'regular']"></i>
   </a>
 </template>
 
 <script>
 export default {
   name: "icon",
-  props: ["href", "name", "size"]
+  props: ["href", "name", "size", "type"]
 };
 </script>
 
