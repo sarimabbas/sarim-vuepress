@@ -18,7 +18,9 @@ export default {
     return { isMobile: true };
   },
   mounted() {
-    this.isMobile = window.navigator.maxTouchPoints > 0;
+    if (typeof navigator !== "undefined") {
+      this.isMobile = navigator.maxTouchPoints > 0;
+    }
   }
 };
 </script>
