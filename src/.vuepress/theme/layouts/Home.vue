@@ -33,7 +33,7 @@ export default {
       <Logo />
     </p>
 
-    <VueVanta v-if="!isMobile"></VueVanta>
+    <VueVanta v-show="!isMobile"></VueVanta>
 
     <!-- header text -->
     <h1 style="text-align: center">Sarim Abbas</h1>
