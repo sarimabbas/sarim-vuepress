@@ -20,7 +20,7 @@ export default {
     options: {
       type: Object,
       default: () => ({
-        backgroundColor: 0x0,
+        backgroundColor: "#111",
         maxDistance: 21.0,
         spacing: 12.0
       })
