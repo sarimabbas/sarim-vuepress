@@ -15,7 +15,10 @@ export default {
     VueVanta
   },
   data() {
-    return { isMobile: navigator.maxTouchPoints > 0 };
+    return { isMobile: true };
+  },
+  mounted() {
+    this.isMobile = navigator.maxTouchPoints > 0;
   }
 };
 </script>
@@ -32,7 +35,8 @@ export default {
     <h1 style="text-align: center">Sarim Abbas</h1>
     <p style="text-align: center">
       Computer Science major at Yale.
-      <br />Religious consumer of Hacker News. <br />Interested in engineering,
+      <br />Religious consumer of Hacker News.
+      <br />Interested in engineering,
       design and cognition.
     </p>
     <!-- content cards -->
@@ -43,12 +47,7 @@ export default {
     <br />
     <!-- social -->
     <section class="social">
-      <Icon
-        type="fab"
-        name="fa-github"
-        href="https://github.com/sarimabbas/"
-        size="fa-lg"
-      />
+      <Icon type="fab" name="fa-github" href="https://github.com/sarimabbas/" size="fa-lg" />
       <Icon
         type="fab"
         name="fa-linkedin"
