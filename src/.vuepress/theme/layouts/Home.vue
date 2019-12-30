@@ -15,12 +15,10 @@ export default {
     VueVanta
   },
   data() {
-    return { isMobile: true };
-  },
-  mounted() {
-    if (typeof navigator !== "undefined") {
-      this.isMobile = navigator.maxTouchPoints > 0;
-    }
+    return {
+      isMobile:
+        typeof navigator !== undefined ? navigator.maxTouchPoints > 0 : true
+    };
   }
 };
 </script>
