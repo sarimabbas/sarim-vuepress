@@ -3,6 +3,7 @@ import Wrapper from "../components/wrapper/Wrapper.vue";
 import Logo from "../components/logo/Logo.vue";
 import Icon from "../components/icon/Icon.vue";
 import ContentGrid from "../components/content-grid/ContentGrid";
+import VueVanta from "../components/Vanta";
 
 export default {
   name: "home",
@@ -10,14 +11,17 @@ export default {
     Wrapper,
     Logo,
     Icon,
-    ContentGrid
+    ContentGrid,
+    VueVanta
   }
 };
 </script>
 
 <template>
-  <Wrapper width="90%">
+  <Wrapper width="90%" id="hello">
     <p style="text-align: center"><Logo /></p>
+
+    <VueVanta></VueVanta>
 
     <!-- header text -->
     <h1 style="text-align: center">Sarim Abbas</h1>
