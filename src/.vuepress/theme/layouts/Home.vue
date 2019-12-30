@@ -16,9 +16,13 @@ export default {
   },
   data() {
     return {
-      isMobile:
-        typeof navigator !== undefined ? navigator.maxTouchPoints > 0 : true
+      isMobile: true
     };
+  },
+  mounted() {
+    if (typeof window !== undefined) {
+      this.isMobile = window.navigator.maxTouchPoints > 0;
+    }
   }
 };
 </script>
