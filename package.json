@@ -23,7 +23,6 @@
     "dependencies": {
         "is-image": "^3.0.0",
         "luxon": "^1.19.3",
-        "mobile-device-detect": "^0.3.3",
         "prismjs": "^1.17.1",
         "uuid": "^3.3.3",
         "vue-lazyload": "^1.3.3"

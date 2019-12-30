@@ -4,7 +4,6 @@ import Logo from "../components/logo/Logo.vue";
 import Icon from "../components/icon/Icon.vue";
 import ContentGrid from "../components/content-grid/ContentGrid";
 import VueVanta from "../components/Vanta";
-import { isMobile } from "mobile-device-detect";
 
 export default {
   name: "home",
@@ -16,14 +15,16 @@ export default {
     VueVanta
   },
   data() {
-    return { isMobile: isMobile };
+    return { isMobile: navigator.maxTouchPoints > 0 };
   }
 };
 </script>
 
 <template>
   <Wrapper width="90%" id="hello">
-    <p style="text-align: center"><Logo /></p>
+    <p style="text-align: center">
+      <Logo />
+    </p>
 
     <VueVanta v-if="!isMobile"></VueVanta>
 
