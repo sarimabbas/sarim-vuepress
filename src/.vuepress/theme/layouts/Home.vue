@@ -13,16 +13,6 @@ export default {
     Icon,
     ContentGrid,
     VueVanta
-  },
-  data() {
-    return {
-      isMobile: true
-    };
-  },
-  mounted() {
-    if (typeof window !== undefined) {
-      this.isMobile = window.navigator.maxTouchPoints > 0;
-    }
   }
 };
 </script>
@@ -33,7 +23,7 @@ export default {
       <Logo />
     </p>
 
-    <VueVanta v-show="!isMobile"></VueVanta>
+    <VueVanta></VueVanta>
 
     <!-- header text -->
     <h1 style="text-align: center">Sarim Abbas</h1>

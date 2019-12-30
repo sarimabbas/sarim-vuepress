@@ -73,11 +73,13 @@ export default {
         vantaScript.src = `${url}/vanta.${this.effect}.min.js`;
         document.head.appendChild(vantaScript);
         vantaScript.onload = () => {
-          window.VANTA[this.effect.toUpperCase()](
-            Object.assign(this.options, {
-              el: `#hello`
-            })
-          );
+          if (window.navigator.maxTouchPoints < 1) {
+            window.VANTA[this.effect.toUpperCase()](
+              Object.assign(this.options, {
+                el: `#hello`
+              })
+            );
+          }
         };
       };
     }
