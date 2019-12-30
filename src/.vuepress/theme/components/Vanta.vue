@@ -21,8 +21,9 @@ export default {
       type: Object,
       default: () => ({
         backgroundColor: "#111",
-        maxDistance: 21.0,
-        spacing: 12.0
+        points: 9.00,
+        maxDistance: 22.00,
+        spacing: 16.00
       })
     },
     src: {
