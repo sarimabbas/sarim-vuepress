@@ -25,9 +25,5 @@ module.exports = {
         count: Infinity
       }
     ]
-  ],
-  head: [
-    ["link", { rel: "preconnect", href: "https://cdn.jsdelivr.net" }],
-    ["link", { rel: "preconnect", href: "https://cdnjs.cloudflare.com" }]
   ]
 };

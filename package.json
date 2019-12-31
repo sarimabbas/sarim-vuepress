@@ -17,6 +17,7 @@
         "pug-plain-loader": "^1.0.0",
         "rss": "^1.2.2",
         "sass-loader": "^8.0.0",
+        "vue-particles": "^1.0.9",
         "vuepress": "^1.2.0"
     },
     "dependencies": {

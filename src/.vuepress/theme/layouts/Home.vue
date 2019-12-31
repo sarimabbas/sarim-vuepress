@@ -2,7 +2,6 @@
 import Wrapper from "../components/wrapper/Wrapper.vue";
 import Logo from "../components/logo/Logo.vue";
 import ContentGrid from "../components/content-grid/ContentGrid";
-import VueVanta from "../components/Vanta";
 
 export default {
   name: "home",
@@ -16,12 +15,29 @@ export default {
 </script>
 
 <template>
-  <Wrapper width="90%" id="hello">
+  <Wrapper width="90%">
     <p style="text-align: center">
       <Logo />
     </p>
 
-    <VueVanta></VueVanta>
+    <vue-particles
+      color="#ff3f81"
+      :particleOpacity="0.7"
+      :particlesNumber="40"
+      shapeType="circle"
+      :particleSize="7"
+      linesColor="#ff3f81"
+      :linesWidth="1"
+      :lineLinked="true"
+      :lineOpacity="0.6"
+      :linesDistance="220"
+      :moveSpeed="1.5"
+      :hoverEffect="true"
+      hoverMode="grab"
+      :clickEffect="false"
+      clickMode="push"
+      class="particles"
+    />
 
     <!-- header text -->
     <h1 style="text-align: center">Sarim Abbas</h1>
@@ -79,5 +95,13 @@ export default {
 
 .icon:hover {
   filter: brightness(0.9);
+}
+
+.particles {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
 }
 </style>

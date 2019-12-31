@@ -59,14 +59,12 @@ export default {
   padding: 0;
 
   /* transition */
-  transition-delay: 0s;
-  transition-duration: 0.5s;
-  transition-property: all;
-  transition-timing-function: cubic-bezier(0.175, 1.2, 0.32, 1.275);
+  transition: all 0.5s;
 }
 
 .card:hover {
   transform: scale(1.05);
+  transition: all 0.1s;
 }
 
 .card::after {

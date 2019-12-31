@@ -1,4 +1,5 @@
 import VueLazyload from "vue-lazyload";
+import VueParticles from "vue-particles";
 import "vue-awesome/icons/rss";
 import "vue-awesome/icons/file-alt";
 import "vue-awesome/icons/brands/github";
@@ -19,4 +20,6 @@ export default ({
   });
 
   Vue.component("v-icon", Icon);
+
+  Vue.use(VueParticles);
 };
