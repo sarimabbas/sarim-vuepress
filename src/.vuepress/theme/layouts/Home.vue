@@ -15,10 +15,6 @@ export default {
 
 <template>
   <Wrapper width="90%">
-    <p style="text-align: center">
-      <Logo />
-    </p>
-
     <vue-particles
       color="#ff3f81"
       :particleOpacity="0.7"
@@ -37,6 +33,10 @@ export default {
       clickMode="push"
       class="particles"
     />
+
+    <p style="text-align: center">
+      <Logo />
+    </p>
 
     <!-- header text -->
     <h1 style="text-align: center">Sarim Abbas</h1>
@@ -97,10 +97,11 @@ export default {
 }
 
 .particles {
-  position: fixed;
+  position: absolute;
   top: 0;
   left: 0;
-  height: 100%;
   width: 100%;
+  height: 100%;
+  z-index: -1;
 }
 </style>
