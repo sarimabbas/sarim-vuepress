@@ -43,7 +43,7 @@ export default {
 
     <p style="text-align: center">
       Computer Science major at Yale.
-      <br />Religious consumer of Hacker News.
+      <br />Loves building (and breaking) things.
       <br />Interested in engineering,
       design and cognition.
     </p>
