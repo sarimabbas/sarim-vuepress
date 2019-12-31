@@ -27,9 +27,6 @@ export default {
 /* buttons */
 @import "./buttons.css";
 
-/* icons */
-@import "~@fortawesome/fontawesome-free/css/all.css";
-
 /* syntax highlighting */
 @import "~prismjs/themes/prism-tomorrow.css";
 </style>
