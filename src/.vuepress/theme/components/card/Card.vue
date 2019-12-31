@@ -13,15 +13,7 @@ export default {
 <template>
   <div class="card">
     <a :href="href" class="card-link" />
-    <video
-      v-if="isVideo(image)"
-      :src="image"
-      class="image"
-      autoplay
-      loop
-      muted
-      playsinline
-    />
+    <video v-if="isVideo(image)" :src="image" class="image" autoplay loop muted playsinline />
     <img v-else v-lazy="image" class="image" />
     <div class="text">
       <h4 class="headtext">{{ headtext }}</h4>
@@ -60,11 +52,13 @@ export default {
 
   /* transition */
   transition: all 0.5s;
+  /* Enable hardware acceleration to fix laggy transitions */
+  transform: translateZ(0);
 }
 
 .card:hover {
+  transition: all 0.2s;
   transform: scale(1.05);
-  transition: all 0.1s;
 }
 
 .card::after {
