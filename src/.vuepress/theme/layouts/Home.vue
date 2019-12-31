@@ -8,8 +8,7 @@ export default {
   components: {
     Wrapper,
     Logo,
-    ContentGrid,
-    VueVanta
+    ContentGrid
   }
 };
 </script>
