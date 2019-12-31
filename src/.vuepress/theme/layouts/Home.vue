@@ -43,7 +43,8 @@ export default {
 
     <p style="text-align: center">
       Computer Science major at Yale.
-      <br />Religious consumer of Hacker News. <br />Interested in engineering,
+      <br />Religious consumer of Hacker News.
+      <br />Interested in engineering,
       design and cognition.
     </p>
 
@@ -56,16 +57,18 @@ export default {
 
     <!-- social -->
     <section class="social">
-      <a href="https://github.com/sarimabbas/"
-        ><v-icon name="brands/github" scale="1.5" class="icon"
-      /></a>
-      <a href="https://www.linkedin.com/in/sarimabbas/"
-        ><v-icon name="brands/linkedin" scale="1.5" class="icon"
-      /></a>
-      <a href="/rss.xml"><v-icon name="rss" class="icon" scale="1.5"/></a>
-      <a href="/previews/sarim-abbas-resume.pdf"
-        ><v-icon name="file-alt" scale="1.5" class="icon"
-      /></a>
+      <a href="https://github.com/sarimabbas/">
+        <v-icon name="brands/github" scale="1.5" class="icon" />
+      </a>
+      <a href="https://www.linkedin.com/in/sarimabbas/">
+        <v-icon name="brands/linkedin" scale="1.5" class="icon" />
+      </a>
+      <a href="/rss.xml">
+        <v-icon name="rss" class="icon" scale="1.5" />
+      </a>
+      <a href="/previews/sarim-abbas-resume.pdf">
+        <v-icon name="file-alt" scale="1.5" class="icon" />
+      </a>
     </section>
     <br />
   </Wrapper>

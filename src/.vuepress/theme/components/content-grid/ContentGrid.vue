@@ -74,8 +74,7 @@ export default {
           'control-option',
           { 'control-option-active': filterProperties.includes('all') }
         ]"
-        >All</a
-      >
+      >All</a>
       <!-- <a href class="control-option">Work</a> -->
       <a
         @click="toggleFilter('project')"
@@ -83,16 +82,14 @@ export default {
           'control-option',
           { 'control-option-active': filterProperties.includes('project') }
         ]"
-        >Projects</a
-      >
+      >Projects</a>
       <a
         @click="toggleFilter('post')"
         :class="[
           'control-option',
           { 'control-option-active': filterProperties.includes('post') }
         ]"
-        >Posts</a
-      >
+      >Posts</a>
     </div>
     <br />
     <div class="grid">
@@ -111,7 +108,7 @@ export default {
   </div>
 </template>
 
-<style scoped>
+<style scoped lang="scss">
 .controls {
   display: flex;
   align-items: center;
@@ -144,6 +141,9 @@ export default {
 
 .grid {
   --auto-grid-min-size: 19rem;
+  @media (max-width: 768px) {
+    --auto-grid-min-size: 17rem;
+  }
   display: grid;
   grid-template-columns: repeat(
     auto-fit,
