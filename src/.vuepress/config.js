@@ -30,6 +30,7 @@ module.exports = {
       {
         ga: "UA-64590232-1"
       }
-    ]
+    ],
+    "@vuepress/medium-zoom"
   ]
 };
