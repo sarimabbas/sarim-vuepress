@@ -1,19 +1,13 @@
 {
-  "name": "S.A.",
+  "name": "Sarim Abbas",
   "short_name": "S.A.",
+  "lang": "en-US",
+  "start_url": "/",
+  "display": "minimal-ui",
+  "theme_color": "#111111",
   "icons": [
     {
-      "src": "/pwa/android-chrome-192x192.png",
-      "sizes": "192x192",
-      "type": "image/png"
-    },
-    {
-      "src": "/pwa/android-chrome-512x512.png",
-      "sizes": "512x512",
-      "type": "image/png"
+      "src": "/pwa/apple-touch-icon.png"
     }
-  ],
-  "theme_color": "#111111",
-  "background_color": "#111111",
-  "display": "minimal-ui"
+  ]
 }
