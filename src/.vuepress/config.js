@@ -31,6 +31,14 @@ module.exports = {
         ga: "UA-64590232-1"
       }
     ],
-    "@vuepress/medium-zoom"
+    [
+      "@vuepress/medium-zoom",
+      {
+        selector: ".content__default :not(a) > img",
+        options: {
+          background: "#111"
+        }
+      }
+    ]
   ]
 };

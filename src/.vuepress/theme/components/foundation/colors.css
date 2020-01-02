@@ -8,14 +8,3 @@
 html {
   background-color: #111;
 }
-
-/* @media (prefers-color-scheme: dark) {
-  :root {
-    --lm-heading-color: #fff;
-    --lm-body-color: rgb(228, 228, 228);
-  }
-
-  html {
-    background-color: #111;
-  }
-} */
