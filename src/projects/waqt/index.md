@@ -36,7 +36,7 @@ Waqt is built with React, a JavaScript framework, and hosted on Firebase.
 
 The component organization is fairly simple:
 
-```text
+```
 - App
     - Clocks list
         - Add/remove controls
