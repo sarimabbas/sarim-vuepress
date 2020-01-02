@@ -24,6 +24,12 @@ module.exports = {
         // How many articles
         count: Infinity
       }
+    ],
+    [
+      "@vuepress/google-analytics",
+      {
+        ga: "UA-64590232-1"
+      }
     ]
   ]
 };
