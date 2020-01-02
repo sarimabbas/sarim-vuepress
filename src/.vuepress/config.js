@@ -11,6 +11,33 @@ module.exports = {
     //   md.use(require('markdown-it-xxx'))
     // }
   },
+  head: [
+    ["link", { rel: "icon", href: "/logo/white.png" }],
+    ["link", { rel: "manifest", href: "/manifest.json" }],
+    ["meta", { name: "theme-color", content: "#111" }],
+    ["meta", { name: "apple-mobile-web-app-capable", content: "yes" }],
+    [
+      "meta",
+      { name: "apple-mobile-web-app-status-bar-style", content: "black" }
+    ],
+    ["link", { rel: "apple-touch-icon", href: "/logo/white.png" }],
+    [
+      "link",
+      {
+        rel: "mask-icon",
+        href: "/logo/white.png",
+        color: "#111"
+      }
+    ],
+    [
+      "meta",
+      {
+        name: "msapplication-TileImage",
+        content: "/logo/white.png"
+      }
+    ],
+    ["meta", { name: "msapplication-TileColor", content: "#111" }]
+  ],
   plugins: [
     [
       require("./plugins/rss.js"),
@@ -38,6 +65,13 @@ module.exports = {
         options: {
           background: "#111"
         }
+      }
+    ],
+    [
+      "@vuepress/pwa",
+      {
+        serviceWorker: true,
+        updatePopup: true
       }
     ]
   ]
